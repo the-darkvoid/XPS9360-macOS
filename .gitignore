@@ -1,0 +1,16 @@
+.DS_Store
+MacBookPro14,1
+AppleIntelInfo.dat
+*.ioreg
+
+# Ignore subfolders in DSDT
+!DSDT/
+DSDT/*
+
+DSDT/SSDT-SWAK.dsl
+DSDT/SSDT-TBFP.dsl
+DSDT/SSDT-TYPC.dsl
+DSDT/SSDT-TYPC2.dsl
+DSDT/SSDT-YTBT.dsl
+
+

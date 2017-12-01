@@ -1,0 +1,6 @@
+- CodecCommander.kext - v2017-05-01
+  Used for updating EAPD (External Amplifier) state on HDA (High Definition Audio) codecs that use given amp on Speaker or Headphone nodes (both, or even extra ones in some cases). 
+  https://bitbucket.org/RehabMan/os-x-eapd-codec-commander
+- BrcmPatchRAM2.kext - v2016-0705
+  BrcmFirmwareRepo.kext - v2016-07-05
+  https://bitbucket.org/RehabMan/os-x-brcmpatchram
