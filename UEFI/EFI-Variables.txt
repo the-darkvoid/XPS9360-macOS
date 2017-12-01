@@ -1,0 +1,28 @@
+Intel(R) SpeedStep(tm)
+2.3.1: 0x4AB --> 1 (Enabled, Default: Enabled)
+
+Intel(R) Speed Shift Technology
+2.3.1: 0x4AD --> 1 (Enabled, Default: Disabled)
+
+CFG Lock
+2.3.1: 0x4DE --> 0 (Disabled, Default: Enabled)
+
+DVMT Pre-Allocated
+2.3.1: 0x785 --> 0x6 (192MB, Default: 32MB)
+
+DVMT Total Gfx Mem
+2.3.1: 0x786 --> 0x03 (MAX, Default: 128MB)
+
+
+----------------
+Thunderbolt(TM) Support
+2.3.1: 0x443 --> 1 (Enabled, Default: Enabled)
+
+Thunderbolt(TM) PCIe Support
+2.3.1: 0x44A --> 1 (Enabled, Default: Disabled)
+
+Thunderbolt Usb Support
+2.3.1: 0x44C --> 1 (Enabled, Default: Disabled)
+
+Windows 10 Thunderbolt support
+2.3.1: 0x13C5 --> 1 (Enabled, Default: Disabled)

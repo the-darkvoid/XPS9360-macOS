@@ -1,0 +1,7 @@
+- HFSPlus.efi
+- FAT.efi
+  MacOs High Sierra - Extracted from MBP143_0167_B00.fd firmware
+  https://github.com/gdbinit/firmware_vault/tree/master/EFI/MacBookPro
+- APFS.efi
+  MacOs High Sierra 10.13.1 - Modified to prevent pre-boot logging in Clover
+  https://github.com/syscl/XPS9350-macOS/issues/151#issuecomment-336599929

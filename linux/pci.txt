@@ -1,0 +1,68 @@
+00:00.0 Host bridge [0600]: Intel Corporation Device [8086:5914] (rev 08)
+00:02.0 VGA compatible controller [0300]: Intel Corporation Device [8086:5917] (rev 07)
+00:04.0 Signal processing controller [1180]: Intel Corporation Skylake Processor Thermal Subsystem [8086:1903] (rev 08)
+00:14.0 USB controller [0c03]: Intel Corporation Sunrise Point-LP USB 3.0 xHCI Controller [8086:9d2f] (rev 21)
+00:14.2 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Thermal subsystem [8086:9d31] (rev 21)
+00:15.0 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #0 [8086:9d60] (rev 21)
+00:15.1 Signal processing controller [1180]: Intel Corporation Sunrise Point-LP Serial IO I2C Controller #1 [8086:9d61] (rev 21)
+00:16.0 Communication controller [0780]: Intel Corporation Sunrise Point-LP CSME HECI #1 [8086:9d3a] (rev 21)
+00:1c.0 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port [8086:9d10] (rev f1)
+00:1c.4 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #5 [8086:9d14] (rev f1)
+00:1c.5 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #6 [8086:9d15] (rev f1)
+00:1d.0 PCI bridge [0604]: Intel Corporation Sunrise Point-LP PCI Express Root Port #9 [8086:9d18] (rev f1)
+00:1f.0 ISA bridge [0601]: Intel Corporation Device [8086:9d4e] (rev 21)
+00:1f.2 Memory controller [0580]: Intel Corporation Sunrise Point-LP PMC [8086:9d21] (rev 21)
+00:1f.3 Audio device [0403]: Intel Corporation Device [8086:9d71] (rev 21)
+00:1f.4 SMBus [0c05]: Intel Corporation Sunrise Point-LP SMBus [8086:9d23] (rev 21)
+3a:00.0 Network controller [0280]: Qualcomm Atheros QCA6174 802.11ac Wireless Network Adapter [168c:003e] (rev 32)
+3b:00.0 Unassigned class [ff00]: Realtek Semiconductor Co., Ltd. RTS525A PCI Express Card Reader [10ec:525a] (rev 01)
+3c:00.0 Non-Volatile memory controller [0108]: Sandisk Corp Device [15b7:5001]
+
+
+Thunderbolt: 
+        8086:1576   DSL6340 Thunderbolt 3 Bridge [Alpine Ridge 2C 2015]
+
+AppleThunderBoltNHI.kext
+    Info.plist:
+	    <key>IOPCIClassMatch</key>
+		<string>0x08800000&amp;0xffff0000</string>
+		<key>IOPCIMatch</key>
+		<string>0x15008086&amp;0xff00ffff</string>
+    Probe:
+        8086:1513   CV82524 Thunderbolt Controller [Light Ridge 4C 2010]
+        8086:151A   DSL2310 Thunderbolt Controller [Eagle Ridge 2C 2011]
+        8086:1566   DSL4410 Thunderbolt NHI [Redwood Ridge 2C 2013]
+        8086:1568   DSL4510 Thunderbolt NHI [Redwood Ridge 4C 2013]
+        8086:156C   DSL5520 Thunderbolt [Falcon Ridge]
+
+        8086:156A   DSL5320 Thunderbolt 2 NHI [Falcon Ridge 2C 2013]
+        8086:1577   DSL6540 Thunderbolt 3 NHI [Alpine Ridge 4C 2015]
+*       8086:1575   DSL6340 Thunderbolt 3 NHI [Alpine Ridge 2C 2015]
+        8086:15EB   ?
+        8086:15E8   ?
+
+2017-11-04 21:05:25.228 Df kernel[0:cd] ACPIDebug: Version 0.1.4 starting on OS X Darwin 17.2.
+2017-11-04 21:05:25.228 Df kernel[0:cd] ACPIDebug: { "ADBG:", "TINI", }
+2017-11-04 21:05:25.228 Df kernel[0:cd] ACPIDebug: { "ADBG:", "MMTB", }
+2017-11-04 21:05:25.228 Df kernel[0:cd] ACPIDebug: { "ADBG:", "TBTD", }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", "Device no", }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", 0x1c, }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", "TBTF", }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", "Function no", }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", 0x0, }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", "TBT-US-ADR", }
+2017-11-04 21:05:25.229 Df kernel[0:cd] ACPIDebug: { "ADBG:", 0xe0100000, }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "OSUP=00000000E0100000", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "Cmd acknowledged", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "End-of-OSUP", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "End-of-TINI", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "HDEF _INI", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "NRPN: 0000000000000000", }
+2017-11-04 21:05:25.230 Df kernel[0:cd] ACPIDebug: { "ADBG:", "ERR!NRPN: 0000000000000000", }
+2017-11-04 21:05:25.231 Df kernel[0:cd] ACPIDebug: { "ADBG:", "NRPN: 0000000000000000", }
+2017-11-04 21:05:25.231 Df kernel[0:cd] ACPIDebug: { "ADBG:", "ERR!NRPN: 0000000000000000", }
+2017-11-04 21:05:25.231 Df kernel[0:cd] ACPIDebug: { "ADBG:", "NRPN: 0000000000000000", }
+2017-11-04 21:05:25.231 Df kernel[0:cd] ACPIDebug: { "ADBG:", "ERR!NRPN: 0000000000000000", }
+
+
+

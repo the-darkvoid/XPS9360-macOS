@@ -1,0 +1,44 @@
+- ACPIBatteryManager.kext (2017-1001)
+  https://github.com/RehabMan/OS-X-ACPI-Battery-Driver
+  ACPIBatteryManager by RehabMan
+
+- AppleALC (1.2.0)
+  https://github.com/vit9696/AppleALC
+  An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
+
+- AppleBacklightInjector.kext
+  https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
+  Implement backlight control for laptop internal displays on macOS/OS X
+
+- CodecCommander.kext (2017-0501)
+  https://github.com/RehabMan/EAPD-Codec-Commander
+  Handles EAPD state updating for power-managed HDA codecs
+  
+- CoreDisplayFixup.kext (1.3.2)
+  https://github.com/PMheart/CoreDisplayFixup
+  A Lilu plug-in which patches system essentials dynamically to enable 4K or greater resolutions output on certain graphics
+
+- FakePCIID.kext (2017-0527)
+  FakePCIID_Intel_HD_Graphics.kext
+  https://github.com/RehabMan/OS-X-Fake-PCI-ID
+  The purpose of this kext is to attach to any IOPCIDevice so it can provide alternate PCI ID when another driver attached to the same device requests them.
+
+- IntelGraphicsFixup.kext (2017-1015)
+  https://github.com/RehabMan/IntelGraphicsFixup
+  An open source kernel extension providing patches to select Intel GPUs.
+
+- Lilu.kext (1.2.0)
+  https://github.com/vit9696/Lilu
+  An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
+
+- USBInjectall.kext (2017-0724)
+  https://github.com/RehabMan/OS-X-USB-Inject-All
+  Kext to inject all USB ports for the installed Intel EHCI/XHCI chipset automatically.
+
+- UVC2FaceTimeHD.kext
+  https://www.tonymacx86.com/threads/guide-dell-xps-13-9350-macos-10-12-1.204730/page-35#post-1386360
+  Injector to allow webcam to appear as Apple iSight Webcam
+
+- VoodooPS2Controller.kext (2017-0901)
+  https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
+  Updated Voodoo PS/2 Controller, improved Keyboard & Synaptics TouchPad
