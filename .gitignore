@@ -3,6 +3,9 @@ MacBookPro14,1
 AppleIntelInfo.dat
 *.ioreg
 
+# Ignore constructed AppleHDA_ALC256.kext
+audio/AppleHDA_ALC256.kext
+
 # Ignore subfolders in DSDT
 !DSDT/
 DSDT/*
