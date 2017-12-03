@@ -32,8 +32,10 @@ The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injecto
 
 ### Credits
 
-  - OS-X-Clover-Laptop-Config (Hot-patching)  https://github.com/RehabMan/OS-X-Clover-Laptop-Config"
-  - Dell XPS 13 9360 Guide by bozma88  https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141"
+  - OS-X-Clover-Laptop-Config (Hot-patching)  
+  https://github.com/RehabMan/OS-X-Clover-Laptop-Config"
+  - Dell XPS 13 9360 Guide by bozma88  
+  https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141"
   - AppleHDA ALC256  
   https://github.com/Mirone/AppleHDAPatcher"
   - AppleALC  
