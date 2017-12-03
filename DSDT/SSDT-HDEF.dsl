@@ -22,9 +22,10 @@ DefinitionBlock("", "SSDT", 2, "hack", "HDEF", 0)
         Local0 = Package()
         {
             "layout-id", Buffer(4) { 3, 0, 0, 0 },
+            "built-in", Buffer() { 0x00 },
             "hda-gfx", Buffer() { "onboard-1" },
             "RM,device-id", Buffer(4) { 0x70, 0x9d, 0x00, 0x00 },
-            "PinConfigurations", Buffer() { },
+            "PinConfigurations", Buffer() { 0x00 },
         }
         If (CondRefOf(\RMCF.AUDL))
         {
