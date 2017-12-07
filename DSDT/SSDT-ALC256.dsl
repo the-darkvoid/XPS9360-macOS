@@ -44,7 +44,7 @@ DefinitionBlock ("", "SSDT", 1, "hack", "ALC256", 0x00003000)
                     "On Wake", ">y",
                 },
             },
-            "Perform Reset", ">n",
+            "Perform Reset", ">y",
             "Send Delay", 10,
             "Sleep Nodes", ">n",
         },
