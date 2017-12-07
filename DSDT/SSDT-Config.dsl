@@ -12,7 +12,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
             Store("HIGH selects display type. 1: high resolution, 2: low resolution", Debug)
             Store("IGPI overrides ig-platform-id or snb-platform-id", Debug)
             Store("DPTS for laptops only. 1: enables/disables DGPU in _WAK/_PTS", Debug)
-            Store("SHUT enables shutdown fix. 1: disables _PTS code when Arg0==5", Debug)
+            Store("SHUT enables shutdown fix. bit 0: disables _PTS code when Arg0==5, bit 1: SLPE=0 when Arg0==5", Debug)
             Store("XPEE enables XHC.PMEE fix. 1: set XHC.PMEE to zero in _PTS when Arg0==5", Debug)
             Store("SSTF enables _SST LED fix. 1: enables _SI._SST in _WAK when Arg0 == 3", Debug)
             Store("AUDL indicates audio layout-id for patched AppleHDA. Ones: no injection", Debug)
@@ -42,8 +42,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
         //    Name(IGPI, Ones)
         // Or to set a custom ig-platform-id, example:
         //    Name(IGPI, 0x01660008)
-        //Name(IGPI, 0x12345678)
-	    //Name(IGPI, 0x59160000)
+        Name(IGPI, 0)
 
         // DPTS: For laptops only: set to 1 if you want to enable and
         //  disable the DGPU _PTS and _WAK.
@@ -55,7 +54,8 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
         // SHUT: Shutdown fix, disable _PTS code when Arg0==5 (shutdown)
         //
         //  0: does not affect _PTS behavior during shutdown
-        //  1: disables _PTS code during shutdown
+        //  bit 0 set: disables _PTS code during shutdown
+        //  bit 1 set: sets SLPE to zero in _PTS during shutdown
         Name(SHUT, 1)
 
         // XPEE: XHC.PMEE fix, set XHC.PMEE=0 in _PTS when Arg0==5 (shutdown)
@@ -88,7 +88,6 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
         //
         // Ones: Default will be used (0x710 for Ivy/Sandy, 0xad9 for Haswell/Broadwell)
         // Other values: must match framebuffer
-        // 0x59160000 == 0x056c
         Name(LMAX, Ones)
 
         // FBTP: Framebuffer type. Determines IGPU PWM register layout.
