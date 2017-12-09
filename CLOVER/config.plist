@@ -566,7 +566,7 @@
 		<key>SmUUID</key>
 		<string>A47E7BC1-DECA-439E-A6C4-DB8B6767C700</string>
 		<key>Trust</key>
-		<false/>
+		<true/>
 		<key>Version</key>
 		<string>1.0</string>
 	</dict>
