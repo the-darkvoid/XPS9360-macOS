@@ -5,7 +5,7 @@ This repository contains a sample configuration to run macOS (Currently High Sie
 
 ### Preparation
 
-This repository has been tested against Dell XP 9360 buis version 2.3.1. For best results ensure this is the bios version of the target machine.
+This repository has been tested against Dell XP 9360 buis version 2.5.1. For best results ensure this is the bios version of the target machine.
 
 #### UEFI Variables
 
@@ -35,8 +35,8 @@ The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injecto
   - OS-X-Clover-Laptop-Config (Hot-patching)  
   https://github.com/RehabMan/OS-X-Clover-Laptop-Config
   - Dell XPS 13 9360 Guide by bozma88  
-  https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141
-  - AppleHDA ALC256  
-  https://github.com/Mirone/AppleHDAPatcher
-  - AppleALC  
-  https://github.com/vit9696/AppleALC
+  https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141- 
+  - VoodooI2C on XPS 13 9630 by Vygr10565
+  https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/page-202#post-1708487
+
+  Kext authors mentioned in kexts/kexts.txt
