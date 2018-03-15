@@ -273,6 +273,38 @@
 					VFBEMQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename _RMV to XRMV in RP01.PXSX and use with SSDT-TYPC.aml for USB-C hot plug support</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1JNVg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WFJNVg==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					UlAwMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					pABYVEJU
+					</data>
+					<key>Replace</key>
+					<data>
+					pABZVEJU
+					</data>
+				</dict>
 			</array>
 			<key>ReuseFFFF</key>
 			<false/>
