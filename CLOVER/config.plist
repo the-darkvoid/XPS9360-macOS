@@ -356,7 +356,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>-disablegfxfirmware debug=0x12a acpi_layer=0x08 acpi_level=0x02 msgbuf=512000</string>
+		<string>debug=0x12a acpi_layer=0x08 acpi_level=0x02 msgbuf=512000</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>

@@ -24,8 +24,8 @@
   https://github.com/RehabMan/OS-X-Fake-PCI-ID
   The purpose of this kext is to attach to any IOPCIDevice so it can provide alternate PCI ID when another driver attached to the same device requests them.
 
-- IntelGraphicsFixup.kext (2017-1015)
-  https://github.com/RehabMan/IntelGraphicsFixup
+- IntelGraphicsFixup.kext (1.2.6)
+  https://github.com/lvs1974/IntelGraphicsFixup/
   An open source kernel extension providing patches to select Intel GPUs.
 
 - Lilu.kext (1.2.1)
