@@ -38,5 +38,7 @@ The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injecto
   https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141- 
   - VoodooI2C on XPS 13 9630 by Vygr10565
   https://www.tonymacx86.com/threads/guide-dell-xps-13-9360-on-macos-sierra-10-12-x-lts-long-term-support-guide.213141/page-202#post-1708487
+  - USB-C Hotplug through ExpressCard by dpassmor
+  https://www.tonymacx86.com/threads/usb-c-hotplug-questions.211313/
 
   Kext authors mentioned in kexts/kexts.txt
