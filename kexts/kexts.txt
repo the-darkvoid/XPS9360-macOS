@@ -28,7 +28,7 @@
   https://github.com/lvs1974/IntelGraphicsFixup/
   An open source kernel extension providing patches to select Intel GPUs.
 
-- Lilu.kext (1.2.1)
+- Lilu.kext (1.2.2)
   https://github.com/vit9696/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
