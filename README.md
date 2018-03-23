@@ -1,7 +1,7 @@
 macOS on Dell XPS 9360
 ======================
 
-This repository contains a sample configuration to run macOS (Currently High Sierra 10.13.2) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently High Sierra 10.13.3) on a Dell XPS 9360
 
 ### Preparation
 
@@ -9,7 +9,7 @@ This repository has been tested against Dell XP 9360 buis version 2.5.1. For bes
 
 #### UEFI Variables
 
-In order to run macOS successfully a number of EFI BIOS variables need to be modified. The included Clover bootloader contains an updated `Shell64U.efi`, which includes a `setupvar` command to help do just that.
+In order to run macOS successfully a number of EFI BIOS variables need to be modified. The included Clover bootloader contains an updated `Shell64U.efi`, which includes a `setup_var` command to help do just that.
 
 The following variables need to be updated:
 
@@ -25,10 +25,10 @@ All Clover hotpatches are included in DSL format in DSDT. If required the script
 
 #### AppleHDA
 
-In order to support the Realtek ALC256 (ALC3246) codec of the Dell XPS 9360, a custom HDA injector is needed.
+In order to support the Realtek ALC256 (ALC3246) codec of the Dell XPS 9360, AppleALC is included with layout-id 56.
 
+Alternatively, a custom HDA injector can be used.
 The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injector and installs it in `/Library/Extensions` for this purpose.
-
 
 ### Credits
 
