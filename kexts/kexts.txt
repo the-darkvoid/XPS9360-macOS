@@ -18,7 +18,7 @@
   https://github.com/PMheart/CoreDisplayFixup
   A Lilu plug-in which patches system essentials dynamically to enable 4K or greater resolutions output on certain graphics
 
-- FakePCIID.kext (2017-1204)
+- FakePCIID.kext (2017-1215)
   FakePCIID_Broadcom_WiFi.kext
   FakePCIID_Intel_HD_Graphics.kext
   https://github.com/RehabMan/OS-X-Fake-PCI-ID

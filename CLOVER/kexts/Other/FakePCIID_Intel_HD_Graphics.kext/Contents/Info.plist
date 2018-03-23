@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17B1003</string>
+	<string>17C88</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.rehabman.injector.FakePCIID-Intel-HD-Graphics</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -13,13 +13,13 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3.10</string>
+	<string>1.3.11</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1.3.10</string>
+	<string>1.3.11</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -79,30 +79,6 @@
 			<string>0x03000000&amp;0xff000000</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x19128086 0x19068086 0x19138086 0x191e8086 0x19168086 0x191b8086 0x19028086 0x191d8086</string>
-			<key>IOProbeScore</key>
-			<integer>9001</integer>
-			<key>IOProviderClass</key>
-			<string>IOPCIDevice</string>
-		</dict>
-		<key>HD620 KabyLake-R </key>
-		<dict>
-			<key>CFBundleIdentifier</key>
-			<string>org.rehabman.driver.FakePCIID</string>
-			<key>FakeProperties</key>
-			<dict>
-				<key>RM,device-id</key>
-				<data>
-				FlkAAA==
-				</data>
-			</dict>
-			<key>IOClass</key>
-			<string>FakePCIID</string>
-			<key>IOMatchCategory</key>
-			<string>FakePCIID</string>
-			<key>IOPCIClassMatch</key>
-			<string>0x03000000&amp;0xff000000</string>
-			<key>IOPCIPrimaryMatch</key>
-			<string>0x59168086 0x59178086</string>
 			<key>IOProbeScore</key>
 			<integer>9001</integer>
 			<key>IOProviderClass</key>
@@ -175,6 +151,54 @@
 			<string>0x03000000&amp;0xff000000</string>
 			<key>IOPCIPrimaryMatch</key>
 			<string>0x16228086 0x162a8086</string>
+			<key>IOProbeScore</key>
+			<integer>9001</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>UHD620 KabyLake-R </key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				FlkAAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x03000000&amp;0xff000000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x59168086 0x59178086</string>
+			<key>IOProbeScore</key>
+			<integer>9001</integer>
+			<key>IOProviderClass</key>
+			<string>IOPCIDevice</string>
+		</dict>
+		<key>UHD630 CoffeeLake</key>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>org.rehabman.driver.FakePCIID</string>
+			<key>FakeProperties</key>
+			<dict>
+				<key>RM,device-id</key>
+				<data>
+				kj4AAA==
+				</data>
+			</dict>
+			<key>IOClass</key>
+			<string>FakePCIID</string>
+			<key>IOMatchCategory</key>
+			<string>FakePCIID</string>
+			<key>IOPCIClassMatch</key>
+			<string>0x03000000&amp;0xff000000</string>
+			<key>IOPCIPrimaryMatch</key>
+			<string>0x3e918086 0x3e928086</string>
 			<key>IOProbeScore</key>
 			<integer>9001</integer>
 			<key>IOProviderClass</key>
