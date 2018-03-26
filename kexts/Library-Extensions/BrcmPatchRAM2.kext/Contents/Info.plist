@@ -807,7 +807,7 @@
 			<key>DisplayName</key>
 			<string>DW1560 Bluetooth 4.0 LE</string>
 			<key>FirmwareKey</key>
-			<string>BCM20702A1_001.002.014.1443.1572_v5668</string>
+			<string>BCM20702A1_001.002.014.1502.1786_v5882</string>
 			<key>IOClass</key>
 			<string>BrcmPatchRAM2</string>
 			<key>IOMatchCategory</key>
