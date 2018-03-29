@@ -17,16 +17,6 @@
 
 DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 {
-	External (RMDT, DeviceObj)
-	External (RMDT.PUSH, MethodObj)
-	External (RMDT.P1, MethodObj)
-	External (RMDT.P2, MethodObj)
-	External (RMDT.P3, MethodObj)
-	External (RMDT.P4, MethodObj)
-	External (RMDT.P5, MethodObj)
-	External (RMDT.P6, MethodObj)
-	External (RMDT.P7, MethodObj)
-
 	External (_SB.PCI0.RP01, DeviceObj)    // (from opcode)
 	External (_SB.PCI0.RP01.PXSX, DeviceObj)    // (from opcode)
 
@@ -36,13 +26,11 @@ DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 	{
 		Method (_PS0, 0, Serialized)  // _PS0: Power State 0
 		{
-			\RMDT.PUSH("RP01.PXSX._PS0: Powering TBFP")
 			\_SB.TBFP(One)
 		}
 
 		Method (_PS3, 0, Serialized)  // _PS3: Power State 3
 		{
-			\RMDT.PUSH("RP01.PXSX._PS3: De-powering TBFP")
 			\_SB.TBFP(Zero)
 		}
 	}
@@ -67,8 +55,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 
 			Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
 			{
-				\RMDT.PUSH("_SB.PCI0.RP01.PXSX.DSB2: Entering _DSM")
-
 				If (Arg2 == Zero) { Return (Buffer() { 0x03 } ) }
 
 				Return (Package()
@@ -83,8 +69,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 
 				Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
 				{
-					\RMDT.PUSH("_SB.PCI0.RP01.PXSX.DSB2.XHC2: Entering _DSM")
-
 					If (Arg2 == Zero) { Return (Buffer() { 0x03 } ) }
 
 					Return (Package()
@@ -151,8 +135,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 */
 						Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
 						{
-							\RMDT.PUSH("_SB.PCI0.RP01.PXSX.DSB2.XHC2.SSP1: Entering _DSM")
-
 							If (Arg2 == Zero) { Return (Buffer() { 0x03 } ) }
 
 							Return (Package()
@@ -201,8 +183,6 @@ DefinitionBlock ("", "SSDT", 2, "hack", "TYPC", 0x00000000)
 */
 						Method (_DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
 						{
-							\RMDT.PUSH("_SB.PCI0.RP01.PXSX.DSB2.XHC2.SSP2: Entering _DSM")
-
 							If (Arg2 == Zero) { Return (Buffer() { 0x03 } ) }
 
 							Return (Package()

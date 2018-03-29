@@ -331,7 +331,6 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
-			<string>SSDT-Debug.aml</string>
 			<string>SSDT-XOSI.aml</string>
 			<string>SSDT-Config.aml</string>
 			<string>SSDT-IGPU.aml</string>
@@ -350,7 +349,8 @@
 			<string>SSDT-MEM2.aml</string>
 			<string>SSDT-PMCR.aml</string>
 			<string>SSDT-I2C.aml</string>
-			<string>SSDT-TBFP.aml</string>
+			<string>SSDT-TYPC.aml</string>
+			<string>SSDT-YTBT.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
