@@ -1,7 +1,7 @@
 macOS on Dell XPS 9360
 ======================
 
-This repository contains a sample configuration to run macOS (Currently High Sierra 10.13.3) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently High Sierra 10.13.4) on a Dell XPS 9360
 
 ### Preparation
 
