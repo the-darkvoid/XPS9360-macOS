@@ -1,11 +1,11 @@
 macOS on Dell XPS 9360
 ======================
 
-This repository contains a sample configuration to run macOS (Currently High Sierra 10.13.4) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently High Sierra `10.13.4`) on a Dell XPS 9360
 
 ### Preparation
 
-This repository has been tested against Dell XP 9360 buis version 2.5.1. For best results ensure this is the bios version of the target machine.
+This repository has been tested against Dell XP 9360 bios version `2.6.2`. For best results ensure this is the bios version of the target machine.
 
 #### UEFI Variables
 
