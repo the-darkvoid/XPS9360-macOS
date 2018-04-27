@@ -295,7 +295,7 @@
 					<key>Comment</key>
 					<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
 					<key>Disabled</key>
-					<false/>
+					<true/>
 					<key>Find</key>
 					<data>
 					pABYVEJU
@@ -310,7 +310,20 @@
 			<false/>
 		</dict>
 		<key>DropTables</key>
-		<array/>
+		<array>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>xh_rvp07</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>PtidDevc</string>
+			</dict>
+		</array>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -373,6 +386,8 @@
 		<key>FrequencyMHz</key>
 		<integer>2000</integer>
 		<key>HWPEnable</key>
+		<true/>
+		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
 	<key>Devices</key>
