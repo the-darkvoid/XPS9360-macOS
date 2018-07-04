@@ -1,15 +1,17 @@
 macOS on Dell XPS 9360
 ======================
 
-This repository contains a sample configuration to run macOS (Currently High Sierra `10.13.4`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently High Sierra `10.13.5`) on a Dell XPS 9360
 
 ### Preparation
 
-This repository has been tested against Dell XP 9360 bios version `2.6.2`. For best results ensure this is the bios version of the target machine.
+This repository has been tested against Dell XP 9360 bios version `2.8.1` with Thunderbolt firmware `NVM 26.1`. For best results ensure this is the bios version of the target machine.
 
 #### UEFI Variables
 
-In order to run macOS successfully a number of EFI BIOS variables need to be modified. The included Clover bootloader contains an updated `Shell64U.efi`, which includes a `setup_var` command to help do just that.
+In order to run macOS successfully a number of EFI BIOS variables need to be modified. The included Clover bootloader contains an updated `DVMT.efi`, which includes a `setup_var` command to help do just that.
+
+`DVMT.efi` can be launched from Clover directly by renaming it to `Shell64U.efi` in the `tools` folder.
 
 The following variables need to be updated:
 
@@ -21,14 +23,15 @@ The following variables need to be updated:
 
 #### Clover Configuration
 
-All Clover hotpatches are included in DSL format in DSDT. If required the script `--compile-dsdt` option can be used to compile any changes to the DSL files into `./CLOVER/ACPI/patched`.
+All Clover hotpatches are included in source DSL format in the DSDT folder.
+If required the script `--compile-dsdt` option can be used to compile any changes to the DSL files into `./CLOVER/ACPI/patched`.
 
 #### AppleHDA
 
-In order to support the Realtek ALC256 (ALC3246) codec of the Dell XPS 9360, AppleALC is included with layout-id 56.
+In order to support the Realtek ALC256 (ALC3246) codec of the Dell XPS 9360, AppleALC is included with layout-id `56`.
 
-Alternatively, a custom HDA injector can be used.
-The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injector and installs it in `/Library/Extensions` for this purpose.
+Alternatively, a custom AppleHDA injector can be used.
+The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injector and installs it in `/Library/Extensions` for this purpose, in this case the layout-id is `1`.
 
 ### Credits
 
