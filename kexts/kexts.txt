@@ -48,3 +48,7 @@
   VoodooI2CHID.kext
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
+
+- CPUFriend.kext (1.1.3)
+  https://github.com/PMheart/CPUFriend/releases
+  A Lilu plug-in for dynamic power management data injection
