@@ -33,6 +33,14 @@ In order to support the Realtek ALC256 (ALC3246) codec of the Dell XPS 9360, App
 Alternatively, a custom AppleHDA injector can be used.
 The script option `--patch-hda` option generates an AppleHDA_ALC256.kext injector and installs it in `/Library/Extensions` for this purpose, in this case the layout-id is `1`.
 
+#### Display Profiles
+
+Display profiles for the Sharp LQ133Z1 display (Dell XPS 9360 QHD+) are included in the displays folder.
+
+Profiles can be installed by copying them into `/Users/<username>/Library/ColorSync/Profiles` folder, additionally the macOS built-in `ColorSync` utility can be used to inspect the profiles.
+
+Profiles are configured on a per display basis in the `System Preferences` -> `Display` preferences menu.
+
 ### Credits
 
   - OS-X-Clover-Laptop-Config (Hot-patching)  
