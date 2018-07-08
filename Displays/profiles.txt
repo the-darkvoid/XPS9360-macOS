@@ -1,0 +1,8 @@
+Display profile sources & credits:
+
+- 05P7H-LQ133Z1 #1 2015-11-30 19-12 120cdm˝ D6500 2.2 VF-S XYZLUT+MTX:
+  http://forum.notebookreview.com/threads/dell-xps-13-2015-broadwell-infinity-display-owners-thread.769261/page-248#post-10147462
+
+- https://github.com/grawlinson/dell-xps-9360/tree/master/display
+  https://www.notebookcheck.net/Dell-XPS-13-9360-QHD-i7-7500U-Notebook-Review.181471.0.html
+  RXN49_LQ133Z1_01.icm
