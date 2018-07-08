@@ -364,6 +364,7 @@
 			<string>xSSDT-I2C.aml</string>
 			<string>SSDT-TYPC.aml</string>
 			<string>SSDT-YTBT.aml</string>
+			<string>SSDT-LPC.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
