@@ -46,7 +46,7 @@ DefinitionBlock ("", "SSDT", 1, "hack", "ALC256", 0x00003000)
             },
             "Perform Reset", ">y",
             "Send Delay", 10,
-            "Sleep Nodes", ">n",
+            "Sleep Nodes", ">y",
         },
     })
 }
