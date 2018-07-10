@@ -28,7 +28,7 @@
   https://github.com/lvs1974/IntelGraphicsFixup/
   An open source kernel extension providing patches to select Intel GPUs.
 
-- Lilu.kext (1.2.3)
+- Lilu.kext (1.2.4)
   https://github.com/vit9696/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
@@ -44,7 +44,7 @@
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
   Updated Voodoo PS/2 Controller, improved Keyboard
 
-- VoodooI2C.kext (2.01)
+- VoodooI2C.kext (2.0.3)
   VoodooI2CHID.kext
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
