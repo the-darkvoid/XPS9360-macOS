@@ -23,4 +23,25 @@ DefinitionBlock ("", "SSDT", 2, "hack", "I2C", 0)
             Return (ConcatenateResTemplate (SBFB, SBFG))
         }
     }
+
+    // Disable any VoodooPS2Trackpad and VoodooPS2Mouse devices from loading
+    Name(_SB.PCI0.LPCB.PS2K.RMCF, Package()
+    {
+        "Mouse", Package()
+        {
+            "DisableDevice", ">y",
+        },
+        "Synaptics TouchPad", Package()
+        {
+            "DisableDevice", ">y",
+        },
+        "ALPS GlidePoint", Package()
+        {
+            "DisableDevice", ">y",
+        },
+        "Sentelic FSP", Package()
+        {
+            "DisableDevice", ">y",
+        },
+    })
 }

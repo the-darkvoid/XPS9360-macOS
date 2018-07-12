@@ -241,7 +241,7 @@
 					<key>Comment</key>
 					<string>change _STA to XSTA in device GPI0 (TouchPad I2C)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X1NUQQ==
@@ -259,7 +259,7 @@
 					<key>Comment</key>
 					<string>change _CRS to XCRS in device TPD1 (TouchPad I2C)</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0NSUw==
@@ -361,7 +361,7 @@
 			<string>SSDT-MCHC.aml</string>
 			<string>SSDT-MEM2.aml</string>
 			<string>SSDT-PMCR.aml</string>
-			<string>xSSDT-I2C.aml</string>
+			<string>SSDT-I2C.aml</string>
 			<string>SSDT-TYPC.aml</string>
 			<string>SSDT-YTBT.aml</string>
 			<string>SSDT-LPC.aml</string>
