@@ -74,6 +74,31 @@ Profiles can be installed by copying them into `/Users/<username>/Library/ColorS
 
 Profiles are configured on a per display basis in the `System Preferences` -> `Display` preferences menu.
 
+## Undervolting
+
+**Warning [undervolting](https://en.wikipedia.org/wiki/Dynamic_voltage_scaling) may render your XPS 9360 unusable**
+
+Essentially it allows your processor to run on a lower voltage than its specifications, reducing the core temperature.
+
+This allows longer battery life and longer turbo boost.
+
+Credits for this go to jkbuha at tonymacx86.
+
+The undervolt settings I use are configured in UEFI, with the following settings:
+
+- Overclock, CFG, WDT & XTU enable  
+  `0x4DE` -> `00`  
+  `0x64D` -> `01`  
+  `0x64E` -> `01`
+
+- Undervolt values:  
+  `0x653` -> `0x64` (CPU: -100 mV)  
+  `0x655` -> `01`   (Negative voltage for `0x653`)  
+  `0x85A` -> `0x1E` (GPU: -30 mV)  
+  `0x85C` -> `01`   (Negative voltage for `0x85A`)
+
+Remember, these values work for my specific machine, but might cause any other laptop to fail to boot!
+
 ## Credits
 
 - [OS-X-Clover-Laptop-Config (Hot-patching)](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
