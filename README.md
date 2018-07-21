@@ -74,6 +74,16 @@ Profiles can be installed by copying them into `/Users/<username>/Library/ColorS
 
 Profiles are configured on a per display basis in the `System Preferences` -> `Display` preferences menu.
 
+## CPU Profile
+
+In order for macOS to effectively manage the power profile of the i7-8550U processor in the Dell XPS 9630 model used here, it is necessary to include a powermanagement profile for `X86PlatformPlugin`.
+
+A pre-built `CPUFriend.kext` and `CPUDataProvider.kext` is included in the `kext` folder for the i7-8550U.
+
+Instructions on how to build a power mangaement profile for any other CPU types can be found here:
+
+https://github.com/PMheart/CPUFriend/blob/master/Instructions.md
+
 ## Undervolting
 
 **Warning [undervolting](https://en.wikipedia.org/wiki/Dynamic_voltage_scaling) may render your XPS 9360 unusable**
