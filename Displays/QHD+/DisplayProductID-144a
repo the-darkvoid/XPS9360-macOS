@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>DisplayProductName</key>
+  <string>DELL XPS 13 9360 - QHD+</string>
+  <key>DisplayProductID</key>
+  <integer>5194</integer>
+  <key>DisplayVendorID</key>
+  <integer>19728</integer>
+  <key>scale-resolutions</key>
+  <array>
+    <data>AAAMgAAABwg=</data>
+    <data>AAAUAAAAC0AAAAABACAAAA==</data>
+    <data>AAASAAAACiAAAAABACAAAA==</data>
+    <data>AAARgAAACdgAAAABACAAAA==</data>
+    <data>AAARAAAACZAAAAABACAAAA==</data>
+    <data>AAAQAAAACQAAAAABACAAAA==</data>
+    <data>AAAPAAAACHAAAAABACAAAA==</data>
+    <data>AAAMgAAABwgAAAABACAAAA==</data>
+    <data>AAALQAAABlQAAAABACAAAA==</data>
+  </array>
+</dict>
+</plist>

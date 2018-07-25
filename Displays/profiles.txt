@@ -6,3 +6,6 @@ Display profile sources & credits:
 - https://github.com/grawlinson/dell-xps-9360/tree/master/display
   https://www.notebookcheck.net/Dell-XPS-13-9360-QHD-i7-7500U-Notebook-Review.181471.0.html
   RXN49_LQ133Z1_01.icm
+
+- DisplayProductID-144a - additional scaled resolutions for QHD+ display
+  copy file to /System/Library/Displays/Contents/Resources/Overrides/DisplayVendorID-4d10/
