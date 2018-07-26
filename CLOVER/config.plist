@@ -366,6 +366,7 @@
 			<string>SSDT-YTBT.aml</string>
 			<string>SSDT-LPC.aml</string>
 			<string>SSDT-TEMP.aml</string>
+			<string>SSDT-BATT.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
