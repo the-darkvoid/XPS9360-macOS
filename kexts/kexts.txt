@@ -24,8 +24,8 @@
   https://github.com/RehabMan/OS-X-Fake-PCI-ID
   The purpose of this kext is to attach to any IOPCIDevice so it can provide alternate PCI ID when another driver attached to the same device requests them.
 
-- Lilu.kext (1.2.4)
-  https://github.com/vit9696/Lilu
+- Lilu.kext (1.2.5)
+  https://github.com/acidanthera/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
 - USBInjectall.kext (2018-0102)
