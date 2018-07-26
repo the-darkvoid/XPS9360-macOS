@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>16D32</string>
+	<string>17G65</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
@@ -17,7 +17,7 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>6.11-430-gf3a8525c.1758</string>
+	<string>6.11-459-g1cf53906.1787</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleSupportedPlatforms</key>
@@ -25,21 +25,21 @@
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>1758</string>
+	<string>1787</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8E1000a</string>
+	<string>9F2000</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>16E185</string>
+	<string>17E189</string>
 	<key>DTSDKName</key>
-	<string>macosx10.12</string>
+	<string>macosx10.13</string>
 	<key>DTXcode</key>
-	<string>0831</string>
+	<string>0941</string>
 	<key>DTXcodeBuild</key>
-	<string>8E1000a</string>
+	<string>9F2000</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>FakeSMC</key>
@@ -116,11 +116,32 @@
 						hfwETdgSevQ=
 						</data>
 					</array>
+					<key>ALI0</key>
+					<array>
+						<string>{ali</string>
+						<data>
+						BwECAA==
+						</data>
+					</array>
+					<key>ALRV</key>
+					<array>
+						<string>ui16</string>
+						<data>
+						AAE=
+						</data>
+					</array>
+					<key>ALV0</key>
+					<array>
+						<string>{alv</string>
+						<data>
+						ARAGdQEgALYO4A==
+						</data>
+					</array>
 					<key>FNum</key>
 					<array>
 						<string>ui8</string>
 						<data>
-						CA==
+						AA==
 						</data>
 					</array>
 					<key>LsNM</key>
@@ -135,6 +156,13 @@
 						<string>{rev</string>
 						<data>
 						AQQKAAY=
+						</data>
+					</array>
+					<key>MSLD</key>
+					<array>
+						<string>ui8 </string>
+						<data>
+						AA==
 						</data>
 					</array>
 					<key>MSSD</key>
@@ -178,21 +206,7 @@
 					<array>
 						<string>{rev</string>
 						<data>
-						AjgPAAAH
-						</data>
-					</array>
-					<key>RVBF</key>
-					<array>
-						<string>{rev</string>
-						<data>
-						AjgPAAAH
-						</data>
-					</array>
-					<key>RVUF</key>
-					<array>
-						<string>{rev</string>
-						<data>
-						AjgPAAAH
+						ATAPAAAD
 						</data>
 					</array>
 					<key>RMde</key>
@@ -202,32 +216,18 @@
 						QQ==
 						</data>
 					</array>
-					<key>MSLD</key>
+					<key>RVBF</key>
 					<array>
-						<string>ui8</string>
+						<string>{rev</string>
 						<data>
-						AA==
+						ATAPAAAD
 						</data>
 					</array>
-					<key>ALI0</key>
+					<key>RVUF</key>
 					<array>
-						<string>{ali</string>
+						<string>{rev</string>
 						<data>
-						BwECAA==
-						</data>
-					</array>
-					<key>ALRV</key>
-					<array>
-						<string>ui16</string>
-						<data>
-						AAE=
-						</data>
-					</array>
-					<key>ALV0</key>
-					<array>
-						<string>{alv</string>
-						<data>
-						ARAGdQEgALYO4A==
+						ATAPAAAD
 						</data>
 					</array>
 				</dict>
@@ -259,7 +259,7 @@
 				<key>debug</key>
 				<false/>
 				<key>smc-compatible</key>
-				<string>smc-huronriver</string>
+				<string>smc-napa</string>
 				<key>trace</key>
 				<false/>
 			</dict>
@@ -272,9 +272,9 @@
 			<key>IOResourceMatch</key>
 			<string>FakeSMCKeyStore</string>
 			<key>RM,Build</key>
-			<string>Release-jkbuha</string>
+			<string>Release-rob</string>
 			<key>RM,Version</key>
-			<string>FakeSMC 1758</string>
+			<string>FakeSMC 1787</string>
 		</dict>
 		<key>FakeSMCKeyStore</key>
 		<dict>
