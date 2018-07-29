@@ -505,62 +505,6 @@
 				AQMDAwAAAAUAAMAA
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zero 10ec0261 codec</string>
-				<key>Find</key>
-				<data>
-				YQLsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zero 10ec0262 codec</string>
-				<key>Find</key>
-				<data>
-				YgLsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Zero 10ec0885 codec</string>
-				<key>Find</key>
-				<data>
-				hQjsEA==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				AAAAAA==
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Patching 11d41984 with 10ec0256 codec</string>
-				<key>Find</key>
-				<data>
-				hBnUEQ==
-				</data>
-				<key>Name</key>
-				<string>AppleHDA</string>
-				<key>Replace</key>
-				<data>
-				VgLsEA==
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>

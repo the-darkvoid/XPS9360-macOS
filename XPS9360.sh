@@ -47,12 +47,27 @@ patch_hda()
 	rm -R ./audio/AppleHDA_ALC256.kext/Contents/Resources/*
 	rm -R ./audio/AppleHDA_ALC256.kext/Contents/PlugIns
 	rm -R ./audio/AppleHDA_ALC256.kext/Contents/_CodeSignature
-	rm -R ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
 	rm ./audio/AppleHDA_ALC256.kext/Contents/version.plist
-	ln -s /System/Library/Extensions/AppleHDA.kext/Contents/MacOS/AppleHDA ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
+
+	echo "       --> ${BOLD}Patching AppleHDA_ALC256 executable${OFF}"
+	perl -i -pe 's|\x61\x02\xEC\x10|\x00\x00\x00\x00|s' ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
+	perl -i -pe 's|\x62\x02\xEC\x10|\x00\x00\x00\x00|s' ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
+	perl -i -pe 's|\x85\x08\xEC\x10|\x00\x00\x00\x00|s' ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
+	perl -i -pe 's|\x84\x19\xD4\x11|\x56\x02\xEC\x10|s' ./audio/AppleHDA_ALC256.kext/Contents/MacOS/AppleHDA
 
 	echo "       --> ${BOLD}Copying AppleHDA_ALC256 audio platform & layouts${OFF}"
-	cp ./audio/*.zlib ./audio/AppleHDA_ALC256.kext/Contents/Resources/
+
+	cp audio/Platforms.plist ./audio/AppleHDA_ALC256.kext/Contents/Resources/Platforms.xml
+	./tools/zlib ./audio/AppleHDA_ALC256.kext/Contents/Resources/Platforms.xml
+	rm ./audio/AppleHDA_ALC256.kext/Contents/Resources/Platforms.xml
+
+    layouts=`ls audio/layout*.plist`
+    for layout in $layouts; do
+        layout=`basename $layout`
+        cp audio/$layout ./audio/AppleHDA_ALC256.kext/Contents/Resources/${layout/.plist/.xml}
+		./tools/zlib ./audio/AppleHDA_ALC256.kext/Contents/Resources/${layout/.plist/.xml}
+		rm ./audio/AppleHDA_ALC256.kext/Contents/Resources/${layout/.plist/.xml}
+    done
 
 	echo "       --> ${BOLD}Configuring AppleHDA_ALC256 Info.plist${OFF}"
 	replace=`/usr/libexec/plistbuddy -c "Print :NSHumanReadableCopyright" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
