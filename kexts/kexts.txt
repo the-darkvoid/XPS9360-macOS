@@ -28,7 +28,7 @@
   https://github.com/acidanthera/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
-- USBInjectall.kext (2018-0102)
+- USBInjectall.kext (2018-0716)
   https://github.com/RehabMan/OS-X-USB-Inject-All
   Kext to inject all USB ports for the installed Intel EHCI/XHCI chipset automatically.
 
