@@ -335,6 +335,10 @@ DefinitionBlock("", "SSDT", 2, "hack", "_IGPU", 0)
                 "model", Buffer() { "Intel UHD Graphics 620" },
                 "hda-gfx", Buffer() { "onboard-1" },
                 "device-id", Buffer() { 0x16, 0x59, 0x00, 0x00 },
+                // WhateverGreen.kext framebuffer patch instructions    
+                "framebuffer-patch-enable", Buffer() { 0x01, 0x00, 0x00, 0x00 },
+                "framebuffer-fbmem", Buffer() { 0x00, 0x00, 0xC0, 0x00 },
+                "framebuffer-stolenmem", Buffer() { 0x00, 0x00, 0x00, 0x05 },
             },
             // Kaby Lake/HD630
             0x5912, 0, Package()

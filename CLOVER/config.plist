@@ -489,22 +489,6 @@
 				RiV1VHh4eHgA
 				</data>
 			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>0x59160000, 80MB framebuffer 12MB cursor bytes (credit RehabMan)</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				AQMDAwAAIAIAAAAA
-				</data>
-				<key>Name</key>
-				<string>com.apple.driver.AppleIntelKBLGraphicsFramebuffer</string>
-				<key>Replace</key>
-				<data>
-				AQMDAwAAAAUAAMAA
-				</data>
-			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
