@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G65</string>
+	<string>17G2208</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -307,8 +307,12 @@
 			</dict>
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
+			<key>ProcessBluetoothMouseStopsTrackpad</key>
+			<true/>
+			<key>ProcessUSBMouseStopsTrackpad</key>
+			<true/>
 			<key>QuietTimeAfterTyping</key>
-			<integer>500000000</integer>
+			<integer>500</integer>
 			<key>RM,deliverNotifications</key>
 			<true/>
 		</dict>

@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G65</string>
+	<string>17G2208</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Trackpad</string>
 	<key>CFBundleGetInfoString</key>
@@ -357,6 +357,10 @@
 					<integer>13</integer>
 					<key>MultiFingerWLimit</key>
 					<integer>9</integer>
+					<key>ProcessBluetoothMouseStopsTrackpad</key>
+					<true/>
+					<key>ProcessUSBMouseStopsTrackpad</key>
+					<true/>
 					<key>QuietTimeAfterTyping</key>
 					<integer>500000000</integer>
 					<key>Resolution</key>
@@ -574,6 +578,8 @@
 			</dict>
 			<key>ProductID</key>
 			<integer>547</integer>
+			<key>RM,deliverNotifications</key>
+			<true/>
 			<key>VendorID</key>
 			<integer>1452</integer>
 		</dict>

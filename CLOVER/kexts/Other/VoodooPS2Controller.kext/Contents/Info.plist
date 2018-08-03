@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>17G65</string>
+	<string>17G2208</string>
 	<key>CFBundleExecutable</key>
 	<string>VoodooPS2Controller</string>
 	<key>CFBundleGetInfoString</key>
@@ -130,6 +130,8 @@
 					<string>ProBook</string>
 				</dict>
 			</dict>
+			<key>RM,deliverNotifications</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>OSBundleCompatibleVersion</key>
