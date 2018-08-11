@@ -46,5 +46,5 @@
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
 
 - WhateverGreen.kext (1.2.0)
-  https://github.com/PMheart/CoreDisplayFixup
+  https://github.com/acidanthera/WhateverGreen
   Lilu plugin providing patches to select GPUs on macOS.
