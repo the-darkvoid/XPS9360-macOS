@@ -103,8 +103,15 @@ enable_trim()
 
 enable_3rdparty()
 {
-	echo "${GREEN}[3rd Party${OFF}: Enabling ${BOLD}3rd Party${OFF} application support"
+	echo "${GREEN}[3rd Party]${OFF}: Enabling ${BOLD}3rd Party${OFF} application support"
 	sudo spctl --master-disable
+}
+
+disable_touchid()
+{
+	echo "${GREEN}[TouchID]${OFF}: disabling ${BOLD}TouchID${OFF} launch daemons"
+	sudo launchctl remove -w /System/Library/LaunchDaemons/com.apple.biometrickitd.plist
+	sudo launchctl remove -w /System/Library/LaunchDaemons/com.apple.biokitaggdd.plist
 }
 
 RETVAL=1
@@ -130,8 +137,12 @@ case "$1" in
 		enable_3rdparty
 		RETVAL=0
 		;;
+	--disable-touchid)
+		disable_touchid
+		RETVAL=0
+		;;
 	*)
-		echo "${BOLD}Dell XPS 9530${OFF} - High Sierra 10.13.1 (17B1003)"
+		echo "${BOLD}Dell XPS 9530${OFF} - High Sierra 10.13.6 (17G2208)"
 		echo "https://github.com/the-darkvoid/XPS9360-macOS"
 		echo
 		echo "\t${BOLD}--update${OFF}: Update to latest git version (including externals)"
@@ -139,6 +150,7 @@ case "$1" in
 		echo "\t${BOLD}--patch-hda${OFF}: Create AppleHDA injector kernel extension"
 		echo "\t${BOLD}--enable-trim${OFF}: Enable trim support for 3rd party SSD"
 		echo "\t${BOLD}--enable-3rdparty${OFF}: Enable 3rd party application support (run app from anywhere)"
+		echo "\t${BOLD}--disable-touchid${OFF}: Disable Touch ID daemons (Used for Macbook15,2 profile)"
 		echo
 		echo "Credits:"
 		echo "${BLUE}OS-X-Clover-Laptop-Config (Hot-patching)${OFF}: https://github.com/RehabMan/OS-X-Clover-Laptop-Config"
