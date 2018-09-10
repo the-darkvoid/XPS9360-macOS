@@ -93,6 +93,20 @@ patch_hda()
 	echo "       --> ${BOLD}Installed AppleHDA_ALC256.kext to /Library/Extensions${OFF}"
 	sudo cp -r ./kexts/Library-Extensions/CodecCommander.kext /Library/Extensions
 	echo "       --> ${BOLD}Installed CodecCommander.kext to /Library/Extensions${OFF}"
+	sudo cp ./audio/ALCPlugFix /usr/bin
+	sudo chmod 755 /usr/bin/ALCPlugFix
+	sudo chown root:wheel /usr/bin/ALCPlugFix
+	echo "       --> ${BOLD}Installed ALCPlugFix to /usr/bin${OFF}"
+	sudo cp ./audio/hda-verb /usr/bin
+	sudo chmod 755 /usr/bin/hda-verb
+	sudo chown root:wheel /usr/bin/hda-verb
+	echo "       --> ${BOLD}Installed hda-verb to /usr/bin${OFF}"
+	sudo cp ./audio/good.win.ALCPlugFix.plist /Library/LaunchAgents/
+	sudo chmod 644 /Library/LaunchAgents/good.win.ALCPlugFix.plist
+	sudo chown root:wheel /Library/LaunchAgents/good.win.ALCPlugFix.plist
+	echo "       --> ${BOLD}Installed ALCPlugFix to /Library/LaunchAgents${OFF}"
+	sudo launchctl load /Library/LaunchAgents/good.win.ALCPlugFix.plist
+	echo "       --> ${BOLD}Registered ALCPlugFix daemon${OFF}"
 }
 
 enable_trim()
