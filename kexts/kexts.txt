@@ -1,4 +1,4 @@
-- ACPIBatteryManager.kext (2017-1001)
+- ACPIBatteryManager.kext (2018-0915)
   https://github.com/RehabMan/OS-X-ACPI-Battery-Driver
   ACPIBatteryManager by RehabMan
 
