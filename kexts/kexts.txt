@@ -40,7 +40,7 @@
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
   Updated Voodoo PS/2 Controller, improved Keyboard
 
-- VoodooI2C.kext (2.0.3)
+- VoodooI2C.kext (2.1.1)
   VoodooI2CHID.kext
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
