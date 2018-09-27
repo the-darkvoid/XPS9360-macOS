@@ -10,19 +10,19 @@
 		<dict>
 			<key>cdhash</key>
 			<data>
-			ofMQNkIKdQ6+lSUE9c+4jMmQZ8c=
+			atAB8IJANwv8oth00ivrIxOE51s=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"e39ecfb930c9ac01df2a237e9769bc75d81fe8bc" or cdhash H"a1f31036420a750ebe952504f5cfb88cc99067c7"</string>
+			<string>cdhash H"f57b446d419254561291ccc7c9a73d607373bbc2" or cdhash H"6ad001f08240370bfca2d874d22beb231384e75b"</string>
 		</dict>
 		<key>PlugIns/VoodooI2CServices.kext</key>
 		<dict>
 			<key>cdhash</key>
 			<data>
-			N4+Ld7LU1KabV4EJdeRjwnKx7rk=
+			tawfjpBdAumJqHzfwHfdIqzHaxo=
 			</data>
 			<key>requirement</key>
-			<string>cdhash H"5f4f42d17f7e4269d09fb4d859cef4b8ce1216a9" or cdhash H"378f8b77b2d4d4a69b57810975e463c272b1eeb9"</string>
+			<string>cdhash H"4812b3cb39d708b9e0940e64e99d56422e3ab6e3" or cdhash H"b5ac1f8e905d02e989a87cdfc077dd22acc76b1a"</string>
 		</dict>
 	</dict>
 	<key>rules</key>
@@ -42,6 +42,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^version.plist$</key>
 		<true/>
@@ -101,6 +106,11 @@
 			<true/>
 			<key>weight</key>
 			<real>1100</real>
+		</dict>
+		<key>^Resources/Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
 		</dict>
 		<key>^[^/]+$</key>
 		<dict>

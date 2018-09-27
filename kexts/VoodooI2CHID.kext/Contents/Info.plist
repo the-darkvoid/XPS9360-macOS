@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>BuildMachineOSBuild</key>
-	<string>15G31</string>
+	<string>16F73</string>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
@@ -27,7 +27,7 @@
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
-	<string>8A218a</string>
+	<string>8E3004b</string>
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
@@ -35,9 +35,9 @@
 	<key>DTSDKName</key>
 	<string>macosx10.11</string>
 	<key>DTXcode</key>
-	<string>0800</string>
+	<string>0833</string>
 	<key>DTXcodeBuild</key>
-	<string>8A218a</string>
+	<string>8E3004b</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>Intel ACPI Sensor Hub Enabler</key>
@@ -308,9 +308,9 @@
 			<key>IOProviderClass</key>
 			<string>IOHIDInterface</string>
 			<key>ProcessBluetoothMouseStopsTrackpad</key>
-			<true/>
+			<false/>
 			<key>ProcessUSBMouseStopsTrackpad</key>
-			<true/>
+			<false/>
 			<key>QuietTimeAfterTyping</key>
 			<integer>500</integer>
 			<key>RM,deliverNotifications</key>
@@ -366,7 +366,7 @@
 		<key>com.apple.iokit.IOACPIFamily</key>
 		<string>1.4</string>
 		<key>com.apple.iokit.IOGraphicsFamily</key>
-		<string>2.4.1</string>
+		<string>1.0.0b1</string>
 		<key>com.apple.iokit.IOHIDFamily</key>
 		<string>2.0</string>
 		<key>com.apple.kpi.iokit</key>
@@ -376,5 +376,7 @@
 		<key>com.apple.kpi.mach</key>
 		<string>13.0</string>
 	</dict>
+	<key>OSBundleRequired</key>
+	<string>Safe Boot</string>
 </dict>
 </plist>
