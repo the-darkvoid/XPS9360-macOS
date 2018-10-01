@@ -76,7 +76,7 @@ DefinitionBlock("", "SSDT", 2, "hack", "RMCF", 0)
         //
         // The value here will be used to inject layout-id for HDEF and HDAU
         // If set to Ones, no audio injection will be done.
-        Name(AUDL, 0x01)
+        Name(AUDL, 0x02)
         //Name(AUDL, 0x0b)
 
         // BKLT: Backlight control type
