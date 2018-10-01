@@ -1,6 +1,6 @@
 # macOS on Dell XPS 9360
 
-This repository contains a sample configuration to run macOS (Currently High Sierra `10.13.6`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently Mojave Sierra `10.14`) on a Dell XPS 9360
 
 ## Used Hardware Configuration
 
@@ -108,8 +108,10 @@ The undervolt settings I use are configured in UEFI, with the following settings
   `0x85C` -> `01`   (Negative voltage for `0x85A`)
 
 Remember, these values work for my specific machine, but might cause any other laptop to fail to boot!
+
 ## HiDPI
 For a fhd display, use [one-key-hidpi](https://github.com/xzhih/one-key-hidpi)
+
 ## Credits
 
 - [OS-X-Clover-Laptop-Config (Hot-patching)](https://github.com/RehabMan/OS-X-Clover-Laptop-Config)
