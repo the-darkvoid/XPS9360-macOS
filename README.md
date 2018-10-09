@@ -20,7 +20,7 @@ This repository contains a sample configuration to run macOS (Currently Mojave S
     - SD card reader, [macOS open-source project](https://github.com/sinetek/Sinetek-rtsx)
 
 - Firmware Revisions
-  - BIOS version `2.8.1`
+  - BIOS version `2.9.0`
   - Thunderbolt Controller firmware version `NVM 26`
 
 - External Devices
