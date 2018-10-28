@@ -10,7 +10,7 @@
   https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
   Implement backlight control for laptop internal displays on macOS/OS X
 
-- CodecCommander.kext (2017-0501)
+- CodecCommander.kext (2018-1003)
   https://github.com/RehabMan/EAPD-Codec-Commander
   Handles EAPD state updating for power-managed HDA codecs
 
