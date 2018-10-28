@@ -36,7 +36,7 @@
   https://www.tonymacx86.com/threads/guide-dell-xps-13-9350-macos-10-12-1.204730/page-35#post-1386360
   Injector to allow webcam to appear as Apple iSight Webcam
 
-- VoodooPS2Controller.kext (2018-0922)
+- VoodooPS2Controller.kext (2018-1008)
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
   Updated Voodoo PS/2 Controller, improved Keyboard
 
