@@ -1,6 +1,6 @@
 # macOS on Dell XPS 9360
 
-This repository contains a sample configuration to run macOS (Currently Mojave Sierra `10.14.2`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently Mojave Sierra `10.14.3`) on a Dell XPS 9360
 
 ## Used Hardware Configuration
 
