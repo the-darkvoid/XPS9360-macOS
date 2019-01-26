@@ -110,8 +110,8 @@ enable_3rdparty()
 disable_touchid()
 {
 	echo "${GREEN}[TouchID]${OFF}: disabling ${BOLD}TouchID${OFF} launch daemons"
-	sudo launchctl remove -w /System/Library/LaunchDaemons/com.apple.biometrickitd.plist
-	sudo launchctl remove -w /System/Library/LaunchDaemons/com.apple.biokitaggdd.plist
+	sudo rm /System/Library/LaunchDaemons/com.apple.biometrickitd.plist
+	sudo rm /System/Library/LaunchDaemons/com.apple.biokitaggdd.plist
 }
 
 RETVAL=1
