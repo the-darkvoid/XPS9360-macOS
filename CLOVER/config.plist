@@ -324,6 +324,11 @@
 				<string>PtidDevc</string>
 			</dict>
 		</array>
+		<key>RenameDevices</key>
+		<dict>
+			<key>_SB.PCI0.RP05.PXSX</key>
+			<string>ARPT</string>
+		</dict>
 		<key>SSDT</key>
 		<dict>
 			<key>DropOem</key>
@@ -478,6 +483,8 @@
 			<dict>
 				<key>Comment</key>
 				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
+				<key>Disabled</key>
+				<true/>
 				<key>Find</key>
 				<data>
 				RiV1VCUwNHgA
@@ -488,8 +495,6 @@
 				<data>
 				RiV1VHh4eHgA
 				</data>
-				<key>Disabled</key>
-				<true/>
 			</dict>
 		</array>
 	</dict>
