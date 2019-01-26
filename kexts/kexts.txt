@@ -49,6 +49,6 @@
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
 
-- WhateverGreen.kext (1.2.5)
+- WhateverGreen.kext (1.2.6)
   https://github.com/acidanthera/WhateverGreen
   Lilu plugin providing patches to select GPUs on macOS.
