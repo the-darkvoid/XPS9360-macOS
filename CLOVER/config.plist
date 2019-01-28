@@ -4,14 +4,6 @@
 <dict>
 	<key>ACPI</key>
 	<dict>
-		<key>##ResetAddress</key>
-		<string>0x0</string>
-		<key>##ResetValue</key>
-		<string>0x0</string>
-		<key>#ResetAddress</key>
-		<string>0xB2</string>
-		<key>#ResetValue</key>
-		<string>0x73</string>
 		<key>DSDT</key>
 		<dict>
 			<key>DropOEM_DSM</key>
@@ -293,9 +285,9 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
+					<string>(Old) Rename XTBT to YTBT and use with SSDT-YTBT.aml for USB-C hot plug</string>
 					<key>Disabled</key>
-					<true/>
+					<false/>
 					<key>Find</key>
 					<data>
 					pABYVEJU
@@ -315,13 +307,19 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>xh_rvp07</string>
+				<string>PtidDevc</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>PtidDevc</string>
+				<string>TbtTypeC</string>
+			</dict>
+			<dict>
+				<key>Signature</key>
+				<string>SSDT</string>
+				<key>TableId</key>
+				<string>xh_rvp07</string>
 			</dict>
 		</array>
 		<key>RenameDevices</key>
@@ -349,6 +347,7 @@
 		</dict>
 		<key>SortedOrder</key>
 		<array>
+			<string>SSDT-Debug.aml</string>
 			<string>SSDT-XOSI.aml</string>
 			<string>SSDT-Config.aml</string>
 			<string>SSDT-IGPU.aml</string>
@@ -366,18 +365,19 @@
 			<string>SSDT-MCHC.aml</string>
 			<string>SSDT-MEM2.aml</string>
 			<string>SSDT-PMCR.aml</string>
-			<string>SSDT-I2C.aml</string>
 			<string>SSDT-TYPC.aml</string>
 			<string>SSDT-YTBT.aml</string>
+			<string>SSDT-I2C.aml</string>
 			<string>SSDT-LPC.aml</string>
 			<string>SSDT-SMCD.aml</string>
 			<string>SSDT-BATT.aml</string>
+			<string>SSDT-USBC.aml</string>
 		</array>
 	</dict>
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>debug=0x12a acpi_layer=0x08 acpi_level=0x02 msgbuf=512000 igfxcflbklt=opcode</string>
+		<string>darkwake=4 igfxcflbklt=opcode</string>
 		<key>DefaultVolume</key>
 		<string>macOS</string>
 		<key>NeverHibernate</key>
@@ -392,9 +392,13 @@
 	<key>CPU</key>
 	<dict>
 		<key>FrequencyMHz</key>
-		<integer>2000</integer>
+		<integer>2700</integer>
 		<key>HWPEnable</key>
 		<true/>
+		<key>TDP</key>
+		<integer>50</integer>
+		<key>Type</key>
+		<string>0x706</string>
 		<key>UseARTFrequency</key>
 		<false/>
 	</dict>
@@ -479,24 +483,7 @@
 		<key>KernelPm</key>
 		<false/>
 		<key>KextsToPatch</key>
-		<array>
-			<dict>
-				<key>Comment</key>
-				<string>change F%uT%04x to F%uTxxxx in AppleBacklightInjector.kext (credit RehabMan)</string>
-				<key>Disabled</key>
-				<true/>
-				<key>Find</key>
-				<data>
-				RiV1VCUwNHgA
-				</data>
-				<key>Name</key>
-				<string>com.apple.driver.AppleBacklight</string>
-				<key>Replace</key>
-				<data>
-				RiV1VHh4eHgA
-				</data>
-			</dict>
-		</array>
+		<array/>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
@@ -510,29 +497,35 @@
 	<key>SMBIOS</key>
 	<dict>
 		<key>BiosReleaseDate</key>
-		<string>08/08/2017</string>
+		<string>09/17/2018</string>
 		<key>BiosVendor</key>
 		<string>Apple Inc.</string>
 		<key>BiosVersion</key>
-		<string>MBP141.88Z.0167.B00.1708080034</string>
+		<string>MBP152.88Z.F000.B00.1809171524</string>
 		<key>Board-ID</key>
-		<string>Mac-B4831CEBD52A0C4C</string>
+		<string>Mac-827FB448E656EC26</string>
 		<key>BoardManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>BoardSerialNumber</key>
-		<string>C02752608GUDP001M</string>
+		<string>C02847482GUF9GYA8</string>
 		<key>BoardType</key>
 		<integer>10</integer>
 		<key>BoardVersion</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro15,2</string>
 		<key>ChassisAssetTag</key>
 		<string>MacBook-Aluminum</string>
 		<key>ChassisManufacturer</key>
 		<string>Apple Inc.</string>
 		<key>ChassisType</key>
 		<string>0x09</string>
+		<key>EfiVersion</key>
+		<string>220.200.252.0.0</string>
 		<key>Family</key>
 		<string>MacBook</string>
+		<key>FirmwareFeatures</key>
+		<string>0xFC0FE137</string>
+		<key>FirmwareFeaturesMask</key>
+		<string>0xFF1FFF3F</string>
 		<key>LocationInChassis</key>
 		<string>Part Component</string>
 		<key>Manufacturer</key>
@@ -581,10 +574,12 @@
 		</dict>
 		<key>Mobile</key>
 		<true/>
+		<key>PlatformFeature</key>
+		<string>0x1A</string>
 		<key>ProductName</key>
-		<string>MacBookPro14,1</string>
+		<string>MacBookPro15,2</string>
 		<key>SerialNumber</key>
-		<string>C02VL2HRHV36</string>
+		<string>C02XRQY8JHCD</string>
 		<key>SmUUID</key>
 		<string>A47E7BC1-DECA-439E-A6C4-DB8B6767C700</string>
 		<key>Trust</key>
