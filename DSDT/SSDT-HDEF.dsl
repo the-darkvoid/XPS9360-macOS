@@ -3,6 +3,7 @@
 DefinitionBlock("", "SSDT", 2, "hack", "HDEF", 0)
 {
     External(_SB.PCI0.HDEF, DeviceObj)
+    External(_SB.PCI0.HDEF.XDSM, MethodObj)
     External(RMCF.AUDL, IntObj)
 
     // Note: If your ACPI set (DSDT+SSDTs) does not define HDEF (or AZAL or HDAS)
@@ -17,6 +18,9 @@ DefinitionBlock("", "SSDT", 2, "hack", "HDEF", 0)
     // inject properties for audio
     Method(_SB.PCI0.HDEF._DSM, 4)
     {
+        // Pass call to original _DSM first
+        \_SB.PCI0.HDEF.XDSM(Arg0, Arg1, Arg2, Arg3)
+
         If (CondRefOf(\RMCF.AUDL)) { If (Ones == \RMCF.AUDL) { Return(0) } }
         If (!Arg2) { Return (Buffer() { 0x03 } ) }
         Local0 = Package()

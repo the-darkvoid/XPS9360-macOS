@@ -3,6 +3,7 @@
 DefinitionBlock("", "SSDT", 2, "hack", "_IGPU", 0)
 {
     External(_SB.PCI0.IGPU, DeviceObj)
+    External(_SB.PCI0.IGPU.XDSM, MethodObj)
 
     External(RMCF.TYPE, IntObj)
     External(RMCF.HIGH, IntObj)
@@ -389,6 +390,9 @@ DefinitionBlock("", "SSDT", 2, "hack", "_IGPU", 0)
         // inject properties for integrated graphics on IGPU
         Method(_DSM, 4)
         {
+            // Pass call to original _DSM first
+            \_SB.PCI0.IGPU.XDSM(Arg0, Arg1, Arg2, Arg3)
+
             // IGPU can be set to Ones to disable IGPU property injection (same as removing SSDT-IGPU.aml)
             If (CondRefOf(\RMCF.IGPI)) { If (Ones == \RMCF.IGPI) { Return(0) } }
             // otherwise, normal IGPU injection...

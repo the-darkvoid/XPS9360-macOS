@@ -75,7 +75,9 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>change _DSM to XDSM</string>
+					<string>change _DSM to XDSM (GFX0/IGPU)</string>
+					<key>Disabled</key>
+					<false/>
 					<key>Find</key>
 					<data>
 					X0RTTQ==
@@ -83,6 +85,68 @@
 					<key>Replace</key>
 					<data>
 					WERTTQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					R0ZYMA==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM (HDAS/HDEF)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0RTTQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WERTTQ==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					SERBUw==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
+					<key>Find</key>
+					<data>
+					SERBUw==
+					</data>
+					<key>Replace</key>
+					<data>
+					SERFRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM (LPCB)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					TFBDQhQbX0RTTQw=
+					</data>
+					<key>Replace</key>
+					<data>
+					TFBDQhQbWERTTQw=
 					</data>
 				</dict>
 				<dict>
@@ -121,32 +185,6 @@
 					<key>Replace</key>
 					<data>
 					FCBCUlRYAg==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change GFX0 to IGPU, optionally pair with SSDT-IGPU.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					R0ZYMA==
-					</data>
-					<key>Replace</key>
-					<data>
-					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
-					<key>Find</key>
-					<data>
-					SERBUw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERFRg==
 					</data>
 				</dict>
 				<dict>
@@ -236,15 +274,11 @@
 					<false/>
 					<key>Find</key>
 					<data>
-					X1NUQQ==
+					FB1fU1RBAKAJk1M=
 					</data>
 					<key>Replace</key>
 					<data>
-					WFNUQQ==
-					</data>
-					<key>TgtBridge</key>
-					<data>
-					R1BJMA==
+					FB1YU1RBAKAJk1M=
 					</data>
 				</dict>
 				<dict>
@@ -259,6 +293,24 @@
 					<key>Replace</key>
 					<data>
 					WENSUw==
+					</data>
+					<key>TgtBridge</key>
+					<data>
+					VFBEMQ==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change _DSM to XDSM (TPD1/Touchpad I2C)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X0RTTQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WERTTQ==
 					</data>
 					<key>TgtBridge</key>
 					<data>
@@ -307,12 +359,6 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>PtidDevc</string>
-			</dict>
-			<dict>
-				<key>Signature</key>
-				<string>SSDT</string>
-				<key>TableId</key>
 				<string>TbtTypeC</string>
 			</dict>
 			<dict>
@@ -355,12 +401,11 @@
 			<string>SSDT-BRT6.aml</string>
 			<string>SSDT-ALS0.aml</string>
 			<string>SSDT-HDEF.aml</string>
-			<string>SSDT-ALC256.aml</string>
 			<string>SSDT-UIAC.aml</string>
 			<string>SSDT-USBX.aml</string>
 			<string>SSDT-PTSWAK.aml</string>
 			<string>SSDT-PRW.aml</string>
-			<string>SSDT-NVME.aml</string>
+			<string>#SSDT-NVME.aml</string>
 			<string>SSDT-DMAC.aml</string>
 			<string>SSDT-MCHC.aml</string>
 			<string>SSDT-MEM2.aml</string>
