@@ -2,7 +2,7 @@
   https://github.com/RehabMan/OS-X-ACPI-Battery-Driver
   ACPIBatteryManager by RehabMan
 
-- AppleALC (1.3.4)
+- AppleALC (1.3.5)
   https://github.com/vit9696/AppleALC
   An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 
