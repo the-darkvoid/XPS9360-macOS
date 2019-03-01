@@ -70,23 +70,23 @@ patch_hda()
     done
 
 	echo "       --> ${BOLD}Configuring AppleHDA_ALC256 Info.plist${OFF}"
-	replace=`/usr/libexec/plistbuddy -c "Print :NSHumanReadableCopyright" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
-	/usr/libexec/plistbuddy -c "Set :NSHumanReadableCopyright '$replace'" $plist
-	replace=`/usr/libexec/plistbuddy -c "Print :CFBundleGetInfoString" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
-	/usr/libexec/plistbuddy -c "Set :CFBundleGetInfoString '$replace'" $plist
-	replace=`/usr/libexec/plistbuddy -c "Print :CFBundleVersion" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
-	/usr/libexec/plistbuddy -c "Set :CFBundleVersion '$replace'" $plist
-	replace=`/usr/libexec/plistbuddy -c "Print :CFBundleShortVersionString" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
-	/usr/libexec/plistbuddy -c "Set :CFBundleShortVersionString '$replace'" $plist
-	/usr/libexec/plistbuddy -c "Add ':HardwareConfigDriver_Temp' dict" $plist
-	/usr/libexec/plistbuddy -c "Merge /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHardwareConfigDriver.kext/Contents/Info.plist ':HardwareConfigDriver_Temp'" $plist
-	/usr/libexec/plistbuddy -c "Copy ':HardwareConfigDriver_Temp:IOKitPersonalities:HDA Hardware Config Resource' ':IOKitPersonalities:HDA Hardware Config Resource'" $plist
-	/usr/libexec/plistbuddy -c "Delete ':HardwareConfigDriver_Temp'" $plist
-	/usr/libexec/plistbuddy -c "Delete ':IOKitPersonalities:HDA Hardware Config Resource:HDAConfigDefault'" $plist
-	/usr/libexec/plistbuddy -c "Delete ':IOKitPersonalities:HDA Hardware Config Resource:PostConstructionInitialization'" $plist
-	/usr/libexec/plistbuddy -c "Add ':IOKitPersonalities:HDA Hardware Config Resource:IOProbeScore' integer" $plist
-	/usr/libexec/plistbuddy -c "Set ':IOKitPersonalities:HDA Hardware Config Resource:IOProbeScore' 2000" $plist
-	/usr/libexec/plistbuddy -c "Merge ./audio/ahhcd.plist ':IOKitPersonalities:HDA Hardware Config Resource'" $plist
+	replace=`/usr/libexec/PlistBuddy -c "Print :NSHumanReadableCopyright" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
+	/usr/libexec/PlistBuddy -c "Set :NSHumanReadableCopyright '$replace'" $plist
+	replace=`/usr/libexec/PlistBuddy -c "Print :CFBundleGetInfoString" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
+	/usr/libexec/PlistBuddy -c "Set :CFBundleGetInfoString '$replace'" $plist
+	replace=`/usr/libexec/PlistBuddy -c "Print :CFBundleVersion" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
+	/usr/libexec/PlistBuddy -c "Set :CFBundleVersion '$replace'" $plist
+	replace=`/usr/libexec/PlistBuddy -c "Print :CFBundleShortVersionString" $plist | perl -Xpi -e 's/(\d*\.\d*)/9\1/'`
+	/usr/libexec/PlistBuddy -c "Set :CFBundleShortVersionString '$replace'" $plist
+	/usr/libexec/PlistBuddy -c "Add ':HardwareConfigDriver_Temp' dict" $plist
+	/usr/libexec/PlistBuddy -c "Merge /System/Library/Extensions/AppleHDA.kext/Contents/PlugIns/AppleHDAHardwareConfigDriver.kext/Contents/Info.plist ':HardwareConfigDriver_Temp'" $plist
+	/usr/libexec/PlistBuddy -c "Copy ':HardwareConfigDriver_Temp:IOKitPersonalities:HDA Hardware Config Resource' ':IOKitPersonalities:HDA Hardware Config Resource'" $plist
+	/usr/libexec/PlistBuddy -c "Delete ':HardwareConfigDriver_Temp'" $plist
+	/usr/libexec/PlistBuddy -c "Delete ':IOKitPersonalities:HDA Hardware Config Resource:HDAConfigDefault'" $plist
+	/usr/libexec/PlistBuddy -c "Delete ':IOKitPersonalities:HDA Hardware Config Resource:PostConstructionInitialization'" $plist
+	/usr/libexec/PlistBuddy -c "Add ':IOKitPersonalities:HDA Hardware Config Resource:IOProbeScore' integer" $plist
+	/usr/libexec/PlistBuddy -c "Set ':IOKitPersonalities:HDA Hardware Config Resource:IOProbeScore' 2000" $plist
+	/usr/libexec/PlistBuddy -c "Merge ./audio/ahhcd.plist ':IOKitPersonalities:HDA Hardware Config Resource'" $plist
     
 	echo "       --> ${BOLD}Created AppleHDA_ALC256.kext${OFF}"
 	sudo cp -r ./audio/AppleHDA_ALC256.kext /Library/Extensions
