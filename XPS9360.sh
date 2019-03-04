@@ -95,6 +95,12 @@ patch_hda()
 	echo "       --> ${BOLD}Installed CodecCommander.kext to /Library/Extensions${OFF}"
 }
 
+combo_jack()
+{
+	echo "${GREEN}[ComboJack]${OFF}: Installing ComboJack for ${BOLD}ALC256${OFF}"
+	./ComboJack/install.sh
+}
+
 enable_trim()
 {
 	echo "${GREEN}[TRIM]${OFF}: Enabling ${BOLD}TRIM${OFF} support for 3rd party SSD"
@@ -129,6 +135,10 @@ case "$1" in
 		patch_hda
 		RETVAL=0
 		;;
+	--combo-jack)
+		combo_jack
+		RETVAL=0
+		;;
 	--enable-trim)
 		enable_trim
 		RETVAL=0
@@ -148,6 +158,7 @@ case "$1" in
 		echo "\t${BOLD}--update${OFF}: Update to latest git version (including externals)"
 		echo "\t${BOLD}--compile-dsdt${OFF}: Compile DSDT files to ./DSDT/compiled"
 		echo "\t${BOLD}--patch-hda${OFF}: Create AppleHDA injector kernel extension"
+		echo "\t${BOLD}--combo-jack${OFF}: Install ComboJack user daemon (Headset / Headphone detection)"
 		echo "\t${BOLD}--enable-trim${OFF}: Enable trim support for 3rd party SSD"
 		echo "\t${BOLD}--enable-3rdparty${OFF}: Enable 3rd party application support (run app from anywhere)"
 		echo "\t${BOLD}--disable-touchid${OFF}: Disable Touch ID daemons (Used for Macbook15,2 profile)"
