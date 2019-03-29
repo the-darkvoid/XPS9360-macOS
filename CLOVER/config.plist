@@ -359,13 +359,13 @@
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>TbtTypeC</string>
+				<string>#TbtTypeC</string>
 			</dict>
 			<dict>
 				<key>Signature</key>
 				<string>SSDT</string>
 				<key>TableId</key>
-				<string>xh_rvp07</string>
+				<string>#xh_rvp07</string>
 			</dict>
 		</array>
 		<key>RenameDevices</key>
