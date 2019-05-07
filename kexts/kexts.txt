@@ -10,7 +10,7 @@
   https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
   Implement backlight control for laptop internal displays on macOS/OS X
 
-- AirportBrcmFixup (1.1.9)
+- AirportBrcmFixup (2.0.0)
   https://github.com/acidanthera/AirportBrcmFixup
   An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 
