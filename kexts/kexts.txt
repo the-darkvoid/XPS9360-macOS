@@ -18,7 +18,7 @@
   https://github.com/RehabMan/EAPD-Codec-Commander
   Handles EAPD state updating for power-managed HDA codecs
 
-- CPUFriend.kext (1.1.6)
+- CPUFriend.kext (1.1.7)
   https://github.com/PMheart/CPUFriend
   A Lilu plug-in for dynamic power management data injection
 
