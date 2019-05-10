@@ -1,7 +1,7 @@
 //
 // SSDT-BRT6.dsl
 //
-// Dell XPS 15 9560 
+// Dell XPS 15 9360 
 //
 // This SSDT contains a remapping of the BRT6 (brightness control) method.
 //
@@ -15,12 +15,12 @@
 
 
 DefinitionBlock("", "SSDT", 2, "hack", "BRT6", 0)
-{    
+{
     External(_SB.PCI0.LPCB.PS2K, DeviceObj)
-    External(_SB.PCI0.IGPU, DeviceObj)
-    External(_SB.PCI0.IGPU.LCD, DeviceObj)
+    External(_SB.PCI0.GFX0, DeviceObj)
+    External(_SB.PCI0.GFX0.LCD, DeviceObj)
     
-    Scope(_SB.PCI0.IGPU)
+    Scope(_SB.PCI0.GFX0)
     {
         Method (BRT6, 2, NotSerialized)
         {
@@ -41,6 +41,5 @@ DefinitionBlock("", "SSDT", 2, "hack", "BRT6", 0)
             }
         }
     }
-    
 }
 //EOF
