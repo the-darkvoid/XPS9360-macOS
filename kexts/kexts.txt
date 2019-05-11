@@ -1,32 +1,18 @@
-- ACPIBatteryManager.kext (2018-1005)
-  https://github.com/RehabMan/OS-X-ACPI-Battery-Driver
-  ACPIBatteryManager by RehabMan
+- AirportBrcmFixup (2.0.0)
+  https://github.com/acidanthera/AirportBrcmFixup
+  An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 
 - AppleALC (1.3.7)
   https://github.com/vit9696/AppleALC
   An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 
-- AppleBacklightInjector.kext
-  https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
-  Implement backlight control for laptop internal displays on macOS/OS X
-
-- AirportBrcmFixup (2.0.0)
-  https://github.com/acidanthera/AirportBrcmFixup
-  An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
-
-- CodecCommander.kext (2018-1003)
-  https://github.com/RehabMan/EAPD-Codec-Commander
-  Handles EAPD state updating for power-managed HDA codecs
+- BrcmPatchRAM (2018-0505)
+  https://github.com/RehabMan/OS-X-BrcmPatchRAM
+  Support for firmware uploads into Broadcom PatchRAM USB devices
 
 - CPUFriend.kext (1.1.)
   https://github.com/PMheart/CPUFriend
   A Lilu plug-in for dynamic power management data injection
-
-- FakePCIID.kext (2018-1027)
-  FakePCIID_Broadcom_WiFi.kext
-  FakePCIID_Intel_HD_Graphics.kext
-  https://github.com/RehabMan/OS-X-Fake-PCI-ID
-  The purpose of this kext is to attach to any IOPCIDevice so it can provide alternate PCI ID when another driver attached to the same device requests them.
 
 - Lilu.kext (1.3.5)
   https://github.com/acidanthera/Lilu
@@ -44,15 +30,35 @@
   https://github.com/acidanthera/VirtualSMC
   Advanced Apple SMC emulator in the kernel
 
-- VoodooPS2Controller.kext (2018-1008)
-  https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
-  Updated Voodoo PS/2 Controller, improved Keyboard
-
 - VoodooI2C.kext (2.1.6)
   VoodooI2CHID.kext
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
 
+- VoodooPS2Controller.kext (2018-1008)
+  https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
+  Updated Voodoo PS/2 Controller, improved Keyboard
+
 - WhateverGreen.kext (1.2.8)
   https://github.com/acidanthera/WhateverGreen
   Lilu plugin providing patches to select GPUs on macOS.
+
+-- Archived ---
+
+- AppleBacklightInjector.kext
+  https://www.tonymacx86.com/threads/guide-laptop-backlight-control-using-applebacklightinjector-kext.218222/
+  Implement backlight control for laptop internal displays on macOS/OS X
+
+- CodecCommander.kext (2018-1003)
+  https://github.com/RehabMan/EAPD-Codec-Commander
+  Handles EAPD state updating for power-managed HDA codecs
+
+- FakePCIID.kext (2018-1027)
+  FakePCIID_Broadcom_WiFi.kext
+  FakePCIID_Intel_HD_Graphics.kext
+  https://github.com/RehabMan/OS-X-Fake-PCI-ID
+  The purpose of this kext is to attach to any IOPCIDevice so it can provide alternate PCI ID when another driver attached to the same device requests them.
+
+- ACPIBatteryManager.kext (2018-1005)
+  https://github.com/RehabMan/OS-X-ACPI-Battery-Driver
+  ACPIBatteryManager by RehabMan
