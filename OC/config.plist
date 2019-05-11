@@ -726,9 +726,9 @@
 				<key>boot-args</key>
 				<string>darkwake=4 igfxcflbklt=opcode</string>
 				<key>bootercfg</key>
-				<string>log=0 debug=0 leve﻿l=0﻿</string>
-				<key>bootercfg﻿-﻿o﻿nc﻿﻿﻿﻿﻿e</key>
-				<string>log=0 debug﻿=0 level﻿=0</string>
+				<string>log=0 debug=0 level=0</string>
+				<key>bootercfg-once</key>
+				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
 				<data>
 				Zw==
