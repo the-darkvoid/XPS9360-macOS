@@ -30,7 +30,7 @@
   https://github.com/acidanthera/VirtualSMC
   Advanced Apple SMC emulator in the kernel
 
-- VoodooI2C.kext (2.1.6)
+- VoodooI2C.kext (2.2)
   VoodooI2CHID.kext
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
