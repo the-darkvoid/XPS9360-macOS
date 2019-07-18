@@ -2,11 +2,14 @@
 - FAT.efi
   macOs High Sierra - Extracted from MBP143_0167_B00.fd firmware
   https://github.com/gdbinit/firmware_vault/tree/master/EFI/MacBookPro
+
 - ApfsDriverLoader.efi (2.0.7)
   Open source apfs.efi loader based on reverse-engineered Apple's ApfsJumpStart driver.
   https://github.com/acidanthera/AppleSupportPkg
+
 - AppleUiSupport.efi (2.0.7)
   Driver which implements set of protocol for support EfiLoginUi which used for FileVault as login window.
   https://github.com/acidanthera/AppleSupportPkg
-- VirtualSmc.efi (1.0.2)
+
+- VirtualSmc.efi (1.0.6)
   https://github.com/acidanthera/VirtualSMC

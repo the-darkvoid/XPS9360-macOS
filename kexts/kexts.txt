@@ -26,7 +26,7 @@
   https://www.tonymacx86.com/threads/guide-dell-xps-13-9350-macos-10-12-1.204730/page-35#post-1386360
   Injector to allow webcam to appear as Apple iSight Webcam
 
-- VirtualSMC.kext (1.0.4)
+- VirtualSMC.kext (1.0.6)
   https://github.com/acidanthera/VirtualSMC
   Advanced Apple SMC emulator in the kernel
 
