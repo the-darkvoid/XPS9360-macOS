@@ -1,6 +1,7 @@
 # macOS on Dell XPS 9360
 
-This repository contains a sample configuration to run macOS (Currently Mojave Sierra `10.14.4`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently Mojave `10.14.6`) on a Dell XPS 9360
+Booting is supported using either Clover EFI or OpenCore.
 
 ## Used Hardware Configuration
 
@@ -58,6 +59,11 @@ The following variables need to be updated:
 
 All Clover hotpatches are included in source DSL format in the DSDT folder.
 If required the script `--compile-dsdt` option can be used to compile any changes to the DSL files into `./CLOVER/ACPI/patched`.
+
+## OpenCore Configuration
+
+All OpenCore ACPI hotpatches are included in source DSL format in the DSDT folder. They are identical to the Clover ones.
+Both Clover and OpenCore use the same set of DeviceProperties, kext patches and ACPI patches.
 
 ## AppleHDA
 
