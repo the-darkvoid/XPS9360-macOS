@@ -24,6 +24,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>Inject plugin-type=1 for CPU power management</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-PLUG.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Inject PNLF device for brightness control</string>
 				<key>Enabled</key>
 				<true/>
