@@ -43,7 +43,7 @@
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
   Updated Voodoo PS/2 Controller, improved Keyboard
 
-- WhateverGreen.kext (1.3.2)
+- WhateverGreen.kext (1.3.3)
   https://github.com/acidanthera/WhateverGreen
   Lilu plugin providing patches to select GPUs on macOS.
 
