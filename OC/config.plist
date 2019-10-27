@@ -119,13 +119,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				T1NJRA==
-				</data>
+				<data>T1NJRA==</data>
 				<key>Replace</key>
-				<data>
-				WFNJRA==
-				</data>
+				<data>WFNJRA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -133,13 +129,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X09TSQ==
-				</data>
+				<data>X09TSQ==</data>
 				<key>Replace</key>
-				<data>
-				WE9TSQ==
-				</data>
+				<data>WE9TSQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -147,13 +139,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				FCBCUlQ2Ag==
-				</data>
+				<data>FCBCUlQ2Ag==</data>
 				<key>Replace</key>
-				<data>
-				FCBCUlRYAg==
-				</data>
+				<data>FCBCUlRYAg==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -161,13 +149,9 @@
 				<key>Enabled</key>
 				<false/>
 				<key>Find</key>
-				<data>
-				U0FUMA==
-				</data>
+				<data>U0FUMA==</data>
 				<key>Replace</key>
-				<data>
-				U0FUQQ==
-				</data>
+				<data>U0FUQQ==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -175,13 +159,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				R1BSVwI=
-				</data>
+				<data>R1BSVwI=</data>
 				<key>Replace</key>
-				<data>
-				WFBSVwI=
-				</data>
+				<data>WFBSVwI=</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -189,13 +169,9 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				RUNEVg==
-				</data>
+				<data>RUNEVg==</data>
 				<key>Replace</key>
-				<data>
-				RUNfXw==
-				</data>
+				<data>RUNfXw==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -203,17 +179,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1BUUwE=
-				</data>
+				<data>X1BUUwE=</data>
 				<key>Replace</key>
-				<data>
-				WlBUUwE=
-				</data>
+				<data>WlBUUwE=</data>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -221,17 +191,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				X1dBSwE=
-				</data>
+				<data>X1dBSwE=</data>
 				<key>Replace</key>
-				<data>
-				WldBSwE=
-				</data>
+				<data>WldBSwE=</data>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -239,17 +203,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				FB1fU1RBAKAJk1M=
-				</data>
+				<data>FB1fU1RBAKAJk1M=</data>
 				<key>Replace</key>
-				<data>
-				FB1YU1RBAKAJk1M=
-				</data>
+				<data>FB1YU1RBAKAJk1M=</data>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -259,19 +217,13 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				FDNfQ1JTAA==
-				</data>
+				<data>FDNfQ1JTAA==</data>
 				<key>Replace</key>
-				<data>
-				FDNYQ1JTAA==
-				</data>
+				<data>FDNYQ1JTAA==</data>
 				<key>Skip</key>
 				<integer>1</integer>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -281,19 +233,13 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				FDlfRFNNDA==
-				</data>
+				<data>FDlfRFNNDA==</data>
 				<key>Replace</key>
-				<data>
-				FDlYRFNNDA==
-				</data>
+				<data>FDlYRFNNDA==</data>
 				<key>Skip</key>
 				<integer>1</integer>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -303,19 +249,13 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				FCRfUk1WAA==
-				</data>
+				<data>FCRfUk1WAA==</data>
 				<key>Replace</key>
-				<data>
-				FCRYUk1WAA==
-				</data>
+				<data>FCRYUk1WAA==</data>
 				<key>Skip</key>
 				<integer>5</integer>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -323,17 +263,11 @@
 				<key>Enabled</key>
 				<true/>
 				<key>Find</key>
-				<data>
-				pABYVEJU
-				</data>
+				<data>pABYVEJU</data>
 				<key>Replace</key>
-				<data>
-				pABZVEJU
-				</data>
+				<data>pABZVEJU</data>
 				<key>TableSignature</key>
-				<data>
-				RFNEVA==
-				</data>
+				<data>RFNEVA==</data>
 			</dict>
 		</array>
 		<key>Quirks</key>
@@ -389,43 +323,27 @@
 				<key>compatible</key>
 				<string>pci8086,9cc1</string>
 				<key>device-id</key>
-				<data>
-				wZwAAA==
-				</data>
+				<data>wZwAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1f,0x3)</key>
 			<dict>
 				<key>layout-id</key>
-				<data>
-				DQAAAA==
-				</data>
+				<data>DQAAAA==</data>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x2,0x0)</key>
 			<dict>
 				<key>AAPL,ig-platform-id</key>
-				<data>
-				AAAWWQ==
-				</data>
+				<data>AAAWWQ==</data>
 				<key>device-id</key>
-				<data>
-				FlkAAA==
-				</data>
+				<data>FlkAAA==</data>
 				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-fbmem</key>
-				<data>
-				AADAAA==
-				</data>
+				<data>AADAAA==</data>
 				<key>framebuffer-patch-enable</key>
-				<data>
-				AQAAAA==
-				</data>
+				<data>AQAAAA==</data>
 				<key>framebuffer-stolenmem</key>
-				<data>
-				AAAABQ==
-				</data>
+				<data>AAAABQ==</data>
 			</dict>
 		</dict>
 	</dict>
@@ -806,22 +724,18 @@
 			<key>4D1EDE05-38C7-4A6A-9CC6-4BCCA8B38C14</key>
 			<dict>
 				<key>UIScale</key>
-				<data>
-				AQ==
-				</data>
+				<data>AQ==</data>
 			</dict>
 			<key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
 			<dict>
 				<key>boot-args</key>
-				<string>darkwake=4 igfxcflbklt=opcode</string>
+				<string>darkwake=4 debug=0x12a acpi_layer=0x08 acpi_level=0x02 msgbuf=909212 igfxcflbklt=opcode</string>
 				<key>bootercfg</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>bootercfg-once</key>
 				<string>log=0 debug=0 level=0</string>
 				<key>csr-active-config</key>
-				<data>
-				Zw==
-				</data>
+				<data>Zw==</data>
 			</dict>
 		</dict>
 		<key>Block</key>
@@ -872,19 +786,17 @@
 			<key>DevicePathsSupported</key>
 			<integer>1</integer>
 			<key>MLB</key>
-			<string>&lt;FILL THIS&gt;</string>
+			<string>C02953101QXJH4RA8</string>
 			<key>ROM</key>
-			<data>
-			yv66vt6tvu8=
-			</data>
+			<data>L/EUP4Oa</data>
 			<key>SpoofVendor</key>
 			<false/>
 			<key>SystemProductName</key>
 			<string>MacBookPro15,2</string>
 			<key>SystemSerialNumber</key>
-			<string>C02XRQY8JHCD</string>
+			<string>C02ZX0DWJHCC</string>
 			<key>SystemUUID</key>
-			<string>A47E7BC1-DECA-439E-A6C4-DB8B6767C700</string>
+			<string>CCEDB405-97C1-48D5-BFC9-6E3277BBE2B7</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -906,6 +818,8 @@
 			<string>FwRuntimeServices.efi</string>
 			<string>HFSPlus.efi</string>
 			<string>VirtualSmc.efi</string>
+			<string>AudioDxe.efi</string>
+			<string>BootChimeDxe.efi</string>
 		</array>
 		<key>Protocols</key>
 		<dict>
