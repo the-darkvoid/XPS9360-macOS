@@ -11,5 +11,5 @@
   Driver which implements set of protocol for support EfiLoginUi which used for FileVault as login window.
   https://github.com/acidanthera/AppleSupportPkg
 
-- VirtualSmc.efi (1.0.6)
+- VirtualSmc.efi (1.0.8)
   https://github.com/acidanthera/VirtualSMC
