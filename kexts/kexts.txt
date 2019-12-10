@@ -18,7 +18,7 @@
   https://github.com/acidanthera/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
-- NoTouchID.kext (1.0.2)
+- NoTouchID.kext (1.0.3)
   https://github.com/al3xtjames/NoTouchID
   Lilu plugin for disabling Touch ID support.
 
