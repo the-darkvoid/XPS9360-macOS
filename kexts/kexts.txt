@@ -10,7 +10,7 @@
   https://github.com/RehabMan/OS-X-BrcmPatchRAM
   Support for firmware uploads into Broadcom PatchRAM USB devices
 
-- CPUFriend.kext (1.1.9)
+- CPUFriend.kext (1.2.0)
   https://github.com/PMheart/CPUFriend
   A Lilu plug-in for dynamic power management data injection
 
