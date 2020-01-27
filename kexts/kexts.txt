@@ -14,6 +14,10 @@
   https://github.com/PMheart/CPUFriend
   A Lilu plug-in for dynamic power management data injection
 
+- FaceTimeHD.kext (Optional)
+  https://github.com/the-darkvoid/XPS9360-macOS/issues/146
+  Enable webcam with device id 0c45:670c
+
 - Lilu.kext (1.4.0)
   https://github.com/acidanthera/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
