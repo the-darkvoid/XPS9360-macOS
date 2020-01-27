@@ -26,6 +26,10 @@
   https://github.com/al3xtjames/NoTouchID
   Lilu plugin for disabling Touch ID support.
 
+- NVMeFix.kext (1.0.0)
+  https://github.com/acidanthera/NVMeFix
+  NVMeFix is a set of patches for the Apple NVMe storage driver, IONVMeFamily. Its goal is to improve compatibility with non-Apple SSDs.
+
 - USBInjectall.kext (2018-1108)
   https://github.com/RehabMan/OS-X-USB-Inject-All
   Kext to inject all USB ports for the installed Intel EHCI/XHCI chipset automatically.
