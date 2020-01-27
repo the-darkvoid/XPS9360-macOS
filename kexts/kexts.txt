@@ -43,8 +43,14 @@
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
 
-- VoodooPS2Controller.kext (2018-1008)
+- VoodooInput.kext (1.0.2)
+  VoodooInput.kext
+  https://github.com/acidanthera/VoodooInput
+  Generic Multitouch Handler kernel extension for macOS
+
+- VoodooPS2Controller.kext (2.1.0)
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
+  https://github.com/acidanthera/VoodooPS2
   Updated Voodoo PS/2 Controller, improved Keyboard
 
 - WhateverGreen.kext (1.3.5)
