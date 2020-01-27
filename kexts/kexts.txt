@@ -1,4 +1,4 @@
-- AirportBrcmFixup (2.0.4)
+- AirportBrcmFixup (2.0.5)
   https://github.com/acidanthera/AirportBrcmFixup
   An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 
@@ -16,7 +16,7 @@
 
 - FaceTimeHD.kext (Optional)
   https://github.com/the-darkvoid/XPS9360-macOS/issues/146
-  Enable webcam with device id 0c45:670c
+  Enable webcam with device id 0c45:670c, credit ajtang
 
 - Lilu.kext (1.4.0)
   https://github.com/acidanthera/Lilu
