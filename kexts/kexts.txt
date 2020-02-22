@@ -2,7 +2,7 @@
   https://github.com/acidanthera/AirportBrcmFixup
   An open source kernel extension providing a set of patches required for non-native Airport Broadcom Wi-Fi cards.
 
-- AppleALC (1.4.5)
+- AppleALC (1.4.6)
   https://github.com/vit9696/AppleALC
   An open source kernel extension enabling native macOS HD audio for not officially supported codecs without any filesystem modifications.
 
@@ -52,7 +52,7 @@
   https://github.com/acidanthera/VoodooInput
   Generic Multitouch Handler kernel extension for macOS
 
-- VoodooPS2Controller.kext (2.1.0)
+- VoodooPS2Controller.kext (2.1.1)
   https://github.com/RehabMan/OS-X-Voodoo-PS2-Controller
   https://github.com/acidanthera/VoodooPS2
   Updated Voodoo PS/2 Controller, improved Keyboard
