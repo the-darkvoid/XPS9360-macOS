@@ -18,7 +18,7 @@
   https://github.com/the-darkvoid/XPS9360-macOS/issues/146
   Enable webcam with device id 0c45:670c, credit ajtang
 
-- Lilu.kext (1.4.1)
+- Lilu.kext (1.4.4)
   https://github.com/acidanthera/Lilu
   An open source kernel extension bringing a platform for arbitrary kext, library, and program patching throughout the system for macOS.
 
