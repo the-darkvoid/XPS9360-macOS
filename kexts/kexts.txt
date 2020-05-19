@@ -57,7 +57,7 @@
   https://github.com/acidanthera/VoodooPS2
   Updated Voodoo PS/2 Controller, improved Keyboard
 
-- WhateverGreen.kext (1.3.6)
+- WhateverGreen.kext (1.3.9)
   https://github.com/acidanthera/WhateverGreen
   Lilu plugin providing patches to select GPUs on macOS.
 
