@@ -47,7 +47,7 @@
   https://github.com/alexandred/VoodooI2C
   I²C (Inter-Integrated Circuit) driver, for Synaptics TouchPad
 
-- VoodooInput.kext (1.0.2)
+- VoodooInput.kext (1.0.5)
   VoodooInput.kext
   https://github.com/acidanthera/VoodooInput
   Generic Multitouch Handler kernel extension for macOS
