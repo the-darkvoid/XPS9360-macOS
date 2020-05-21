@@ -1,6 +1,6 @@
 # macOS on Dell XPS 9360
 
-This repository contains a sample configuration to run macOS (Currently Mojave `10.14.6`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently Mojave `10.15.4`) on a Dell XPS 9360
 Booting is supported using either Clover EFI or OpenCore.
 
 ## Used Hardware Configuration
@@ -39,7 +39,9 @@ Booting is supported using either Clover EFI or OpenCore.
 
 ## Preparation
 
-This repository has been tested against Dell XP 9360 bios version `2.8.1` with Thunderbolt firmware `NVM 26.1`. For best results ensure this is the bios version of the target machine.
+This repository has been tested against Dell XP 9360 bios version `2.9.0` with Thunderbolt firmware `NVM 26.1`. For best results ensure this is the bios version of the target machine.
+
+Note: When using OpenCore, ensure you disable the Legacy boot ROM in the bios under `Advanced Boot Options` --> `Enable Legacy Option Boot ROM`.
 
 ## UEFI Variables
 
