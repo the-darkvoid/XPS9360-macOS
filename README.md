@@ -1,6 +1,6 @@
 # macOS on Dell XPS 9360
 
-This repository contains a sample configuration to run macOS (Currently Mojave `10.15.4`) on a Dell XPS 9360
+This repository contains a sample configuration to run macOS (Currently Catalain `10.15.4`) on a Dell XPS 9360
 Booting is supported using either Clover EFI or OpenCore.
 
 ## Used Hardware Configuration
